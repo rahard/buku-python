@@ -1,0 +1,25 @@
+\chapter{Triks}
+Ada beberapa hal menarik dari Python. Pada bagian ini akan ditampilkan berbagai
+trik tersebut.
+
+\section{Server Web}
+Python dapat kita gunakan sebagai server web sederhana yang dapat memerikan
+list direktori. Fitur ini sering saya gunakan untuk transfer berkas antar
+mesin. Misalnya saya ingin mengambil sebuah berkas dari satu komputer ke
+komputer yang lain. Maka komputer dimana berkas tersebut berada saya jalankan
+perintah ini (pada direktori dimana berkas tersebut berada).
+
+\begin{verbatim}
+python -m SimpleHTTPServer 8008
+\end{verbatim}
+
+Perintah di atas akan membuat sebuah server web yang berjalan pada {\em port}
+8008. Anda dapat menggunakan port yang berbeda.
+Akan ditampilkan daftar berkas yang ada di direktori tersebut. Saya tinggal
+memilih berkas yang dimaksudkan dan {\em Save as ...}.
+
+Fitur server web ini juga sering saya gunakan untuk proses {\em debugging}
+sebuah aplikasi yang menggunakan protokol web. Untuk melihat data yang
+dikirimkan oleh aplikasi tersebut, saya arahkan dia ke web server ini dan
+kemudian saya perhatikan apa yang ditampilkan (yang diminta oleh aplikasi
+tersebut).

@@ -1,0 +1,51 @@
+%%\documentclass{tufte-book}
+
+\documentclass{tufte-book}
+\usepackage[
+    type={CC},
+    modifier={by-nc-sa},
+    version={3.0},
+]{doclicense}
+\usepackage[lastexercise]{exercise}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\usepackage{amsmath}
+\usepackage[toc,page]{appendix}
+
+% supaya subsection bernomor
+\setcounter{secnumdepth}{2}
+
+
+
+\title{Pemrograman Python}
+\author{Budi Rahardjo}
+
+\usepackage{graphicx} % Needed to insert images into the document
+\graphicspath{{graphics/}} % Sets the default location of pictures
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio} % 
+
+\usepackage{makeidx}
+\makeindex
+
+\begin{document}
+
+
+%%\frontmatter
+%\fbox{\includegraphics[width=1.0\linewidth]{graphics/BR-starting-up.png}}
+%\includegraphics[width=1.0\linewidth]{graphics/BR-starting-up.png}
+
+\maketitle
+
+\tableofcontents
+
+\include{pengantar}
+\include{pendahuluan}
+\include{tricks}
+
+\bibliography{referensi}
+
+%\bibliographystyle{plainnat}
+%\bibliographystyle{alpha}
+\bibliographystyle{plain}
+
+\end{document}
