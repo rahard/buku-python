@@ -1,5 +1,6 @@
 \contentsline {chapter}{\numberline {1}Pendahuluan}{7}{chapter.1}
-\contentsline {section}{\numberline {1.1}Memulai}{7}{section.1.1}
+\contentsline {section}{\numberline {1.1}Instalasi}{7}{section.1.1}
+\contentsline {section}{\numberline {1.2}Memulai}{7}{section.1.2}
 \contentsline {chapter}{\numberline {2}Triks}{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}Server Web}{9}{section.2.1}
 \contentsfinish 
