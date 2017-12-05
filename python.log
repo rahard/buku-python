@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  1 DEC 2017 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  3 DEC 2017 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,7 +939,8 @@ File: csquotes.cfg
 ))
 (/home/budi/texmf/tex/latex/ccicons/ccicons.sty
 Package: ccicons 2013/04/16 v1.5 LaTeX support for Creative Commons icons
-) (./python.aux (./pengantar.aux) (./pendahuluan.aux) (./tricks.aux))
+) (./python.aux (./pengantar.aux) (./pendahuluan.aux) (./advanced.aux) (./trick
+s.aux))
 \openout1 = `python.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -1067,14 +1068,9 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 16.19989pt on input line 37.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 32.39978pt on input line 37.
-
-Overfull \hbox (29.85883pt too wide) in paragraph at lines 37--37
-[]\T1/phv/m/n/36/200ls PEMROGRAMAN PYTHON[]  
- []
-
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 12.59991pt on input line 37.
-[1
+ [1
 
 
 {/home/budi/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
@@ -1087,7 +1083,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
  [3]
 \openout2 = `pengantar.aux'.
 
- (./pengantar.tex [4
+
+(./pengantar.tex [4
 
 
 ]) [5]
@@ -1099,56 +1096,66 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 ]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 24.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 30.
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 24.
-
-Overfull \hbox (46.19244pt too wide) in paragraph at lines 28--28
+(Font)              scaled to size 8.50006pt on input line 30.
+ [7]
+Overfull \hbox (46.19244pt too wide) in paragraph at lines 34--34
 []\T1/fvm/m/n/10 Type "help", "copyright", "credits" or "license" for more info
 rmation.[] 
  []
 
-[7]) [8]
-\openout2 = `tricks.aux'.
+) [8]
+\openout2 = `advanced.aux'.
 
- (./tricks.tex
+ (./advanced.tex
 Chapter 2.
 ) [9
 
 
 
 ]
+\openout2 = `tricks.aux'.
+
+ (./tricks.tex [10
+
+
+
+]
+Chapter 3.
+) [11]
 No file python.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
-(./python.aux (./pengantar.aux) (./pendahuluan.aux) (./tricks.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
+(./python.aux (./pengantar.aux) (./pendahuluan.aux) (./advanced.aux)
+(./tricks.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `python.out' has not changed.
-(rerunfilecheck)             Checksum: BDF6D9186EA114165847B9C2DC465CFF;461.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
+(rerunfilecheck)             Checksum: 6AAFB9A25EEC4408FBA1956B7DFA904A;628.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 22066 strings out of 494953
- 360284 string characters out of 6180977
- 441170 words of memory out of 5000000
- 25012 multiletter control sequences out of 15000+600000
+ 22080 strings out of 494953
+ 360439 string characters out of 6180977
+ 441832 words of memory out of 5000000
+ 25015 multiletter control sequences out of 15000+600000
  48878 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 46i,11n,45p,10415b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,45p,10415b,516s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/fpl/fplrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
 uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on python.pdf (9 pages, 60634 bytes).
+Output written on python.pdf (11 pages, 62259 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 2601 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
+ 2617 words of extra memory for PDF output out of 10000 (max. 10000000)
 
