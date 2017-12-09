@@ -1,5 +1,54 @@
-\chapter{Advanced}
-Pada bagian ini akan dibahas berbagai pemrograman Python yang lebih {\em advanced}.
+\chapter{Koding Tingkat Medium}
+Pada bagian ini akan dibahas berbagai pemrograman Python yang lebih {\em advanced}. Sebetulnya yang akan dibahas adalah contoh-contoh kode Python dengan menggunakan berbagai paket yang tersedia.
+
+\section{Numpy}
+Numpy adalah paket python untuk berbagai aplikasi {\em scientific}. Sebagai contoh, jika kita ingin membangkitkan bilangan random dengan distribusi tertentu (uniform atau normal), maka kita dapat menggunakan paket Numpy ini.
+
+(Contoh-contoh penggunaan paket Numpy akan digabungkan dengan bagian lain.)
+
+\section{Matlplotlib}
+Salah satu aplikasi yang cukup sering dibutuhkan ketika kita membuat program untuk keperluan penelitian adalah membuat grafik (plot). Salah satu {\em library} yang baik untuk digunakan adalah {\em matplotlib}. Paket ini membutuhkan paket lain, yaitu {\em python-tk}. Untuk itu python-tk ini harus dipasang dulu. Di bawah ini adalah contoh pemasangan python-tk di sistem Linux (berbasis Debian) dengan menggunakan perintah apt-get.
+
+\begin{verbatim}
+$ sudo apt-get install python-tk
+$ sudo pip install matplotlib
+\end{verbatim}
+
+Berikut ini adalah sebuah contoh penggunaan Matplotlib dan Numpy. Pada contoh ini kita akan membuat kumpulan data yang memiliki karakteristik ``sekitar'' persamaan 
+$Y = Ax + b$.
+Untuk itu perlu dihasilkan data yang sudah ditambahi atau dikurangi dengan angka random (yang dibuat dengan menggunakan Numpy). (Kode ini diambil dari buku ``Getting Started with Tensorflow''\cite{tensorflowstarted}.)
+Hasilnya dapat dilihat pada gambar~\ref{fig:randomnumpy}
+
+
+\begin{verbatim}
+import numpy as np
+import matplotlib.pyplot as plt
+
+a = 0.25
+b = 0.75
+jumlah_titik = 300
+
+# buat dua list yang masih kosong
+x_point = []
+y_point = []
+
+for i in range(jumlah_titik):
+    x = np.random.normal(0.0,0.4)
+    y = a*x + b + np.random.normal(0.0,0.1)
+    x_point.append([x])
+    y_point.append([y])
+
+plt.plot(x_point,y_point,'o',label='Random Data')
+plt.legend()
+plt.show()
+\end{verbatim}
+
+
+\begin{figure}[ht]
+\fbox{\includegraphics[width=1.0\linewidth]{graphics/random-data.png}}
+\caption{Contoh Pembangkitan Random Data}
+\label{fig:randomnumpy}
+\end{figure}
 
 \section{Pandas}
 Pandas adalah library untuk data processing. Dia banyak digunakan untuk
