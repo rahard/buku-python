@@ -80,3 +80,91 @@ for in in range(10):
 Disarankan untuk menggunakan spasi sebanyak empat (4) buah untuk {\em
 indentation} tersebut. (Ini membuat banyak perdebatan karena ada banyak orang
 yang menggunakan tab bukan spasi.)
+
+\section{Input}
+Salah satu cara untuk mendapatkan masukan (input) dari pengguna secara
+interaktif adalah dengan menggunakan fungsi "input" (untuk Python 3.*)
+atau "raw\_input" (untuk Python 2.7).
+
+\begin{verbatim}
+# ini untuk Python 2.7
+# gunakan raw_input
+nama = raw_input("Masukkan nama Anda: ")
+print "Selamat pagi,", nama
+\end{verbatim}
+
+Perhatikan bahwa kita menggunakan variabel "nama" untuk menyimpan masukan
+dari pengguna. Variabel "nama" tersebut mempunyai tipe {\em string}.
+Python mengenali secara otomatis.
+
+Mari kita coba tampilkan huruf-huruf yang ada di dalam variabel "nama"
+tersebut.
+
+\begin{verbatim}
+# for loop bisa menggunakan elemen dari string
+# tidak harus indeks angka
+for i in nama:
+    print i
+\end{verbatim}
+
+Kita juga dapat membuat statistik kemunculan huruf dari nama (atau teks)
+yang dimasukkan oleh pengguna. Statistik ini dapat dimanfaatkan untuk
+proses enkripsi, misalnya. Gunakan program "input" di atas, dan gabungkan
+dengan kode berikut ini.
+
+\begin{verbatim}
+# associative array: hitung jumlah huruf dan spasi
+huruf = {}  # inisialisasi
+for key in nama:
+    if key in huruf:
+        huruf[key] += 1
+    else:
+        huruf[key]=1
+# tampilkan hasil python 2.7
+# sorted() agar key-nya diurutkan
+# for python 3.* use this: for key, value in d.items():
+for key, value in sorted(huruf.iteritems()):
+    print key, value
+\end{verbatim}
+
+Contoh program di atas menggunakan {\em associative array} atau dalam
+Python disebut {\em dictionary}. Pada prinsipnya ini adalah array tetapi
+dengan menggunakan {\em immutable object} seperti {\em string} sebagai
+indeks atau kuncinya.
+
+Pada contoh tersebut, spasi ({\em space}) masih dianggap sebagai huruf.
+Coba ubah sehingga spasi tidak dimasukkan sebagai indeks.
+
+
+\section{Pemrosesan Teks}
+Salah satu manfaat utama dari bahasa pemrograman seperti Python adalah
+kemampuannya dalam memproses teks ({\em text processing}). Bahasa
+pemrograman lainnya, seperti C, tentu saja dapat digunakan untuk melakukan
+pemrosesan teks. Namun bahasa C lebih "sulit" digunakan karena ada banyak
+hal yang harus kita ketahui dari awal.
+
+\begin{verbatim}
+# text processing
+# memecah kalimat menjadi kata-kata
+kalimat = raw_input("Masukkan kalimat yang cukup panjang.\n")
+# pisahkan menjadi kata
+kata = kalimat.split()
+for k in kata:
+    print k
+\end{verbatim}
+
+Contoh singkat di atas menunjukkan cara memecahkan kalimat menjadi kata-kata.
+Sebagai catatan, kalimat yang dimaksudkan diakhiri dengan {\em return}. 
+Untuk memproses kalimat yang lebih panjang dan memiliki {\em return} harus 
+dilakukan perbaikan.
+Coba kembangkan program yang dapat menerima masukan dari sebuah berkas.
+
+Dengan menggunakan ide pada bagian sebelumnya, kita dapat menghitung
+jumlah kemunculan kata tertentu dalam sebuah kalimat. (Perhatikan bahwa
+"kata" di sini bersifat {\em case sensitive}. Agar dia tidak bergantung
+kepada huruf besar dan kecil, semua huruf harus diubah dahulu ke
+huruf kecil.)
+
+Program ini juga dapat menjadi basis dari sebuah sistem untuk menganalisis
+sentimen seseorang di media sosial. Pikirkan algoritmanya untuk melakukan
+hal tersebut.
