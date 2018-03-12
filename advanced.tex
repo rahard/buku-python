@@ -59,3 +59,51 @@ Langkah pertama yang dilakukan adalah memasang Pandas.
 \begin{verbatim}
 $ sudo pip install pandas
 \end{verbatim}
+
+
+\section{Kriptografi}
+Sebagaimana bidang lain, Python memiliki {\em library} yang lengkap untuk
+kriptografi. Berikut ini hanya beberapa contoh penggunaan {\em library}
+tersebut.
+
+\subsection{Fungsi Hash}
+Fungsi hash adalah fungsi satu arah yang memberikan tanda ({\em signature})
+dari data digital; {\em stream of data} dan berkas.
+Perubahan satu bit saja dari data tersebut akan mengubah nilai dari
+{\em hash} yang dihasilkan. Itulah sebabnya fungsi {\em hash} dapat
+digunakan untuk menjamin integritas data.
+
+Ada banyak algoritma fungsi hash. Algoritma yang terkenal adalah MD5
+dan SHA. Saat ini MD5 sudah dianggap tidak layak lagi karena sudah
+ditemukan {\em collision}, yaitu nilai {\em hash} yang sama untuk data
+yang berbeda. SHA~256 merupakan algoritma yang dianggap cocok saat ini.
+
+\begin{verbatim}
+unix$ echo "beli 10000" | shasum -a 256
+375a6c46228994656932f4aa17d9ae50f21da75a31ff17f8517c255c06cba809 -
+
+unix$ cat pesan1.txt
+beli 10000
+unix$ shasum -a 256 pesan1.txt
+375a6c46228994656932f4aa17d9ae50f21da75a31ff17f8517c255c06cba809 pesan1.txt
+
+unix$ cat pesan2.txt
+beli 1000
+unix$ shasum -a 256 pesan2.txt
+5901bccc6a0556fac2b4a164ef831a7ed4ceddeb60c6ddde1162f5a40b9d2917 pesan2.txt
+\end{verbatim}
+
+Contoh kode Python untuk hal di atas adalah sebagai berikut:
+
+\begin{verbatim}
+# Contoh fungsi hash
+import hashlib
+h = hashlib.sha256("beli 10000\n")
+print h.hexdigest()
+\end{verbatim}
+
+
+Salah satu pemanfaatan ``baru'' dari fungsi {\em hash} ini adalah pada
+algoritma {\em Blockchain} yang digunakan pada {\em Bitcoin}. Sedikit
+cerita tentang hal ini ada di blog
+saya~\footnote{https://rahard.wordpress.com/2018/03/10/berburu-hash/}.
