@@ -56,7 +56,8 @@ editor Anda tersebut. Setelah itu simpan berkas tersebut dengan nama
 (extension) ``.py''.
 
 Setelah berkas tersebut tersedia, maka kita dapat menjalankan Python dengan
-memberikan perintah python dan nama berkas tersebut.
+memberikan perintah python dan nama berkas tersebut. 
+Kata ``Hello world'' akan ditampilkan.
 
 \begin{verbatim}
 $ python hello.py
@@ -168,3 +169,25 @@ huruf kecil.)
 Program ini juga dapat menjadi basis dari sebuah sistem untuk menganalisis
 sentimen seseorang di media sosial. Pikirkan algoritmanya untuk melakukan
 hal tersebut.
+
+
+\section{Python3}
+Bagaimana caranya agar kita dapat menggunakan Python3 sebagai {\em default}
+dari Python? Cara yang paling mudah adalah dengan menggunakan fitur
+alias di shell (jika Anda menggunakan variasi dari UNIX).
+
+\begin{verbatim}
+    alias python=python3
+\end{verbatim}
+
+Jika Anda ingin membuat ini menjadi permanen dan Anda menggunakan {\em bash}
+sebagai shell Anda, letakkan alias tersebut pada berkas ``.bashrc'' pada
+{\em home directory} Anda (atau pada berkas ``.bash\_aliases''). 
+Jika Anda menyimpannya di dalam berkas tersebut, maka perubahan baru akan 
+terjadi jika Anda membuat sesi shell baru atau Anda logout dan login kembali.
+Jika Anda ingin langsung aktif, bisa juga berkas tersebut di-source.
+
+\begin{verbatim}
+    source ~/.bashrc
+\end{verbatim}
+    
