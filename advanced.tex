@@ -2,12 +2,27 @@
 Pada bagian ini akan dibahas berbagai pemrograman Python yang lebih {\em advanced}. Sebetulnya yang akan dibahas adalah contoh-contoh kode Python dengan menggunakan berbagai paket yang tersedia.
 
 \section{Numpy}
-Numpy adalah paket python untuk berbagai aplikasi {\em scientific}. Sebagai contoh, jika kita ingin membangkitkan bilangan random dengan distribusi tertentu (uniform atau normal), maka kita dapat menggunakan paket Numpy ini.
+Numpy adalah paket python untuk berbagai aplikasi {\em scientific}. 
+Sebagai contoh, jika kita ingin membangkitkan bilangan random dengan 
+distribusi tertentu (uniform atau normal), maka kita dapat menggunakan 
+paket Numpy ini.
+Biasanya paket Numpy ini sudah terpasang ketika kita memasang Python,
+tetapi jika belum terpasang maka modul Numpy ini dapat kita pasang sendiri.
+
+\begin{verbatim}
+$ sudo pip install numpy
+\end{verbatim}
 
 (Contoh-contoh penggunaan paket Numpy akan digabungkan dengan bagian lain.)
 
 \section{Matlplotlib}
-Salah satu aplikasi yang cukup sering dibutuhkan ketika kita membuat program untuk keperluan penelitian adalah membuat grafik (plot). Salah satu {\em library} yang baik untuk digunakan adalah {\em matplotlib}. Paket ini membutuhkan paket lain, yaitu {\em python-tk}. Untuk itu python-tk ini harus dipasang dulu. Di bawah ini adalah contoh pemasangan python-tk di sistem Linux (berbasis Debian) dengan menggunakan perintah apt-get.
+Salah satu aplikasi yang cukup sering dibutuhkan ketika kita membuat program 
+untuk keperluan penelitian adalah membuat grafik (plot). 
+Salah satu {\em library} yang baik untuk digunakan adalah {\em matplotlib}. 
+Paket ini membutuhkan paket lain, yaitu {\em python-tk}. 
+Untuk itu python-tk ini harus dipasang dulu. 
+Di bawah ini adalah contoh pemasangan python-tk di sistem Linux (berbasis Debian) 
+dengan menggunakan perintah apt-get.
 
 \begin{verbatim}
 $ sudo apt-get install python-tk
@@ -24,6 +39,7 @@ Hasilnya dapat dilihat pada gambar~\ref{fig:randomnumpy}
 import numpy as np
 import matplotlib.pyplot as plt
 
+# persamaan y = a*x + b
 a = 0.25
 b = 0.75
 jumlah_titik = 300
@@ -50,6 +66,52 @@ plt.show()
 \label{fig:randomnumpy}
 \end{figure}
 
+Jika kode di atas ingin dijalankan di dalam {\em Jupyter Notebook},
+maka baris pertama perlu ditambahkan ini:
+
+\begin{verbatim}
+%matplotlib notebook
+\end{verbatim}
+
+Data ($x$ dan $y$) pada contoh di atas dapat disimpan (diekspor) ke berkas
+dalam format CSV ({\em comma separated value}) dengan menggunakan Numpy
+seperti contoh di bawah ini.
+Berkas ``linear-regression.csv'' disimpan pada direktori dimana kode
+ini dijalankan. Variabel $x\_point$ dan $y\_point$ akan dimasukkan ke
+berkas tersebut dengan format yang didefinisikan dalam {\em fmt}.
+Pada contoh di bawah ini format yang akan digunakan adalah 
+{\em floating point} dengan 5 digit di belakang koma.
+Variabel tersebut dipisahkan dengan menggunakan koma (,) sebagaimana
+dijabarkan dalam {\em delimiter}.
+
+\begin{verbatim}
+np.savetxt("linear-regression.csv", np.column_stack([x_point, y_point]), fmt='%.5f', delimiter=', ')
+\end{verbatim}
+
+Data di atas dapat dibaca kembali dari berkas CSV dan dilakukan
+perhitungan ({\em linear regression}) untuk mencari faktor {\em gradient}
+(faktor $A$) dan $b$ dalam persamaan $Y = a*x + b$.
+Perhitungan ini membutuhkan modul {\em Scipy} yang harus dipasang
+secara terpisah. (Gunakan pip untuk memasang modul scipy itu.)
+
+\begin{verbatim}
+#read CSV of data and calculate a and b
+# y = ax + b
+import numpy as np
+# do not forget to install scipy first: python3 -m pip install scipy
+from scipy import stats
+
+my_csv = np.genfromtxt('linear-regression.csv', delimiter=',')
+xp, yp = my_csv.transpose()
+gradient,intercept,r_value,p_value,std_err=stats.linregress(xp,yp)
+print("Gradient and intercept",gradient,intercept)
+print("R-squared",r_value**2)
+print("p-value",p_value)
+\end{verbatim}
+
+Jika diperlukan, data tersebut dapat ditampilkan ulang dan garis (lurus)
+dapat digambarkan pula.
+
 \section{Pandas}
 Pandas adalah library untuk data processing. Dia banyak digunakan untuk
 berbagai aplikasi, seperti misalnya di Machine Learning.
@@ -58,6 +120,39 @@ Langkah pertama yang dilakukan adalah memasang Pandas.
 
 \begin{verbatim}
 $ sudo pip install pandas
+\end{verbatim}
+
+Jika Anda menggunakan Python3, maka gunakan perintah berikut.
+\begin{verbatim}
+$ sudo python3 -m pip install pandas
+\end{verbatim}
+
+Setelah Pandas terpasang, mari kita coba membuat sebuat {\em Series}.
+Kali ini dia berisi data bilangan dan $NaN$.
+Pandas akan secara otomatis membuat indeks dari data tersebut (dengan
+index bilangan integer)\footnote{Contoh lain dapat dilihat di
+https://pandas.pydata.org/pandas-docs/stable/10min.html}.
+
+\begin{verbatim}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# create series
+ser = pd.Series([1,3,5,7,np.nan,9,11])
+print(ser)
+\end{verbatim}
+
+Hasilnya adalah sebagai berikut.
+\begin{verbatim}
+0     1.0
+1     3.0
+2     5.0
+3     7.0
+4     NaN
+5     9.0
+6    11.0
+dtype: float64
 \end{verbatim}
 
 
