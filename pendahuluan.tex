@@ -5,6 +5,18 @@ library Python ini. Lengkapnya library ini juga yang menyebabkan
 Python dipergunakan di berbagai aplikasi. Berbagai sekolah (dan
 perguruan tinggi) bahkan mengajarkan Python sebagai pengantar pemrograman.
 
+Bahasa Python merupakan sebuah {\em interpreted language} berbeda dengan
+bahasa C yang {\em compiled}. Pada bahasa yang {\em compiled}, kita memiliki
+kode sumber ({\em source code}) yang harus dirakit ({\em compile}) dahulu
+sampai menjadi kode mesin yang langsung dapat dieksekusi pada komputer
+yang bersangkutan. Ketika algoritma salah, maka kode sumber harus diperbaiki
+dahulu kemudian di-{\em compile}) sebelum dapat dijalankan. Prosesnya
+menjadi agak panjang. Sementara itu untuk bahasa yang {\em interpreted},
+program langsung dieksekusi dari kode sumbernya (tanpa perlu proses kompilasi).
+Dahulu program yang {\em compiled} lebih cepat dalam eksekusinya karena
+tidak perlu menerjemahkan baris perbaris ketika dijalankan, namun sekarang
+perbedaannya sudah tipis.
+
 Bahasa Python tersedia untuk berbagai sistem operasi; Windows, Mac OS, dan
 berbagai variasi dari UNIX (Linux, *BSD, dan seterusnya). Di dalam buku ini
 saya akan menggunakan contoh-contoh yang saya gunakan di komputer saya yang
@@ -16,10 +28,15 @@ terjadi, gunakan internet untuk mencari jawabannya.
 Python dapat diperoleh secara gratis dari berbagai sumber. Sumber utamanya
 adalah di situs python.org. Untuk sementara ini bagian ini saya serahkan kepada
 Anda. Ada terlalu banyak perubahan sehingga bagian ini akan cepat kadaluwarsa.
+Untuk sistem berbasis sistem operasi Microsoft Windows, biasanya instalasi 
+Python menggungankan {\em Anaconda}. (Informasi mengenai ini juga dapat
+dilihat pada situs python.org.)
 
 Untuk sistem operasi berbasis Linux dan Mac OS, Python sudah terpasang sebagai
-bawaan dari sistem operasinya. Jika Anda ingin menggunakan versi terbaru maka
+bawaan dari sistem operasinya. Jika Anda ingin memasang versi terbaru maka
 Anda harus memasangnya sendiri dengan mengunduh instalasinya di python.org.
+Atau, jika Python sudah terpasang di komputer Anda, maka Anda dapat melakukan
+{\em upgrade}.
 
 \section{Memulai}
 Untuk memastikan Python berjalan, ketikkan "python" di terminal Linux Anda.
@@ -68,13 +85,43 @@ Hello, world!
 Tentang bahasa Python itu sendiri akan diperdalam pada versi berikutnya.
 Sementara itu fitur tentang bahasa Python akan dibahas sambil berjalan.
 Pendekatan ini saya ambil untuk membuat buku menjadi lebih menarik dan lebih
-singkat. Belajar seperlunya.
+singkat. Belajar seperlunya. Mari kita mulai.
+
+Variabel di dalam Python langsung dapat digunakan tanpa melakukan deklarasi
+sebelumnya. Contohnya di bawah ini.
+\begin{verbatim}
+a = 7
+b = 5
+print(a,b)
+\end{verbatim}
+Pada contoh di atas, variabel $a$ dan $b$ dibuat dan langsung diisi dengan
+angka (7 dan 5) dalam kasus ini.
+Kemudian kedua variabel tersebut disampaikan sekaligus.
+Perhatikan bahwa dengan menggunakan tanda koma (,) nilai dari kedua
+
+\begin{verbatim}
+7, 5
+\end{verbatim}
+
+Berikut ini kita buat penampilan yang lebih ``menarik'' (untuk Python3).
+\begin{verbatim}
+a = 7
+b = 5
+print ("a = ", a)
+print ("b = ", b)
+\end{verbatim}
+
+Keluaran dari Python3 adalah seperti ini:
+\begin{verbatim}
+a = 7
+b = 5
+\end{verbatim}
 
 Hal yang sangat berbeda dari bahasa Python dengan
 bahasa pemrograman lainnya adalah masalah {\em block} dari kode. Bahasa pemrograman C misalnya menggunakan tanda kurung kurawal ``\{'' untuk menyatakan blok. Sementara itu Python menggunakan {\em indentation} untuk menyatakan satu blok. Lihat contoh di bawah ini.
 
 \begin{verbatim}
-for in in range(10):
+for i in range(10):
     print i
 \end{verbatim}
 
