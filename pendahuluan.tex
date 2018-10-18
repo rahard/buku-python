@@ -65,6 +65,53 @@ Hello, world!
 Python akan menampilkan apapun yang ada di antara tanda petik tersebut. Hore!
 Anda berhasil membuat program Python yang pertama.
 
+Ada beberapa cara untuk menjalankan Python. Pada contoh di atas, kita
+menjalankannya secara langsung. Cara ini memang yang paling cepat, tetapi ada
+banyak hal yang harus kita lakukan secara manual. Sebagai contoh, jika kita
+ingin membuat sebuah {\em block}, maka kita harus mengetikkan sendiri empat
+spasi untuk membuatnya masuk. Jika ini tidak kita lakukan, maka dia akan
+``marah'' dan menampilkan pesan. Berikut ini contoh sesi yang salah.
+
+\begin{verbatim}
+$ python3
+Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> for i in range(10):
+... print(i)
+  File "<stdin>", line 2
+    print(i)
+        ^
+IndentationError: expected an indented block
+>>> 
+\end{verbatim}
+
+Pada contoh di atas, kesalahan terjadi karena kita tidak memberikan spasi di
+depan perintah ``print(i)''. Seharusnya kita melakukan hal seperti ini.
+(Perhatikan spasi sebelum kata ``print''.)
+
+\begin{verbatim}
+$ python3
+Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> for i in range(10):
+...     print(i)
+... 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> 
+\end{verbatim}
+
+
 Mari kita lanjutkan dengan membuat program yang lebih panjang. Program Python
 dapat disimpan di dalam sebuah berkas untuk kemudian dieksekusi belakangan.
 Buka editor kesukaan Anda dan ketikkan program hello world di atas di dalam
@@ -81,6 +128,38 @@ $ python hello.py
 Hello, world!
 \end{verbatim}
 
+Cara lain yang dapat dilakukan adalah dengan menggunakan program IPython,
+yaitu interactive Python. Biasanya program IPython ini belum terpasang di
+sistem operasi bawaan komputer Anda. Tinggal unduh dari ipython.org.
+(Perhatikan IPython ini sudah mengenal {\em syntax} dari Python sehingga 
+ketika kita mengetikkan {\em for loop} maka dia akan memberikan spasi 4 buah
+sebagai {\em indentation}.)
+
+\begin{verbatim}
+$ ipython3
+In [1]: print("Hello World")
+Hello World
+
+In [2]: for i in range(10):
+   ...:     print(i)
+   ...:     
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+In [3]: 
+\end{verbatim}
+
+Masih ada satu cara lain menjalankan program Python, yaitu dengan menggunakan
+Jupyter. Yang ini akan kita bahas secara lebih khusus.
+
 \section{Bahasa Python} 
 Tentang bahasa Python itu sendiri akan diperdalam pada versi berikutnya.
 Sementara itu fitur tentang bahasa Python akan dibahas sambil berjalan.
@@ -88,7 +167,9 @@ Pendekatan ini saya ambil untuk membuat buku menjadi lebih menarik dan lebih
 singkat. Belajar seperlunya. Mari kita mulai.
 
 Variabel di dalam Python langsung dapat digunakan tanpa melakukan deklarasi
-sebelumnya. Contohnya di bawah ini.
+sebelumnya. Pada bahasa pemrograman seperti C, variabel harus dideklarasikan
+tipenya; apakah dia {\em integer} atau {\em string}.
+Contohnya di bawah ini.
 \begin{verbatim}
 a = 7
 b = 5
@@ -97,38 +178,54 @@ print(a,b)
 Pada contoh di atas, variabel $a$ dan $b$ dibuat dan langsung diisi dengan
 angka (7 dan 5) dalam kasus ini.
 Kemudian kedua variabel tersebut disampaikan sekaligus.
-Perhatikan bahwa dengan menggunakan tanda koma (,) nilai dari kedua
+Perhatikan bahwa dengan menggunakan tanda koma (,) nilai dari kedua variabel
+tersebut ditampilkan dengan spasi.
 
 \begin{verbatim}
-7, 5
+7 5
 \end{verbatim}
 
 Berikut ini kita buat penampilan yang lebih ``menarik'' (untuk Python3).
 \begin{verbatim}
 a = 7
 b = 5
+c = a + b
 print ("a = ", a)
 print ("b = ", b)
+print ("a+b = ", c)
 \end{verbatim}
 
 Keluaran dari Python3 adalah seperti ini:
 \begin{verbatim}
 a = 7
 b = 5
+a+b = 12
 \end{verbatim}
 
 Hal yang sangat berbeda dari bahasa Python dengan
-bahasa pemrograman lainnya adalah masalah {\em block} dari kode. Bahasa pemrograman C misalnya menggunakan tanda kurung kurawal ``\{'' untuk menyatakan blok. Sementara itu Python menggunakan {\em indentation} untuk menyatakan satu blok. Lihat contoh di bawah ini.
+bahasa pemrograman lainnya adalah masalah {\em block} dari kode. 
+Bahasa pemrograman C misalnya menggunakan tanda kurung kurawal ``\{'' 
+untuk menyatakan blok. Sementara itu Python menggunakan {\em indentation} 
+untuk menyatakan satu blok. Lihat contoh di bawah ini.
 
 \begin{verbatim}
-for i in range(10):
-    print i
+for i in range(5):
+    for j in range(3):
+        print(i,j)
 \end{verbatim}
 
 Disarankan untuk menggunakan spasi sebanyak empat (4) buah untuk {\em
 indentation} tersebut. (Ini membuat banyak perdebatan karena ada banyak orang
 yang menggunakan tab bukan spasi.)
 
+Mari kita buat contoh-contoh lain. Apa keluaran program di bawah ini?
+\begin{verbatim}
+nama1 = "budi"
+nama2 = "rahardjo"
+nama3 = nama1 + nama2
+print(nama3)
+\end{verbatim}
+    
 \section{Input}
 Salah satu cara untuk mendapatkan masukan (input) dari pengguna secara
 interaktif adalah dengan menggunakan fungsi "input" (untuk Python 3.*)
@@ -245,3 +342,6 @@ modul ``numpy'' pada (dengan) python3 adalah sebagai berikut.
 \begin{verbatim}
 python3 -m pip install numpy
 \end{verbatim}
+
+Sebagai catatan ada banyak cara untuk memasang modul Python, tetapi
+cara di atas yang paling konsisten bagi saya.
