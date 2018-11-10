@@ -284,6 +284,34 @@ dilakukan. Hasilnya adalah bilangan {\em float}.
 Hal ini menunjukkan bahwa bahasa Python dapat dibuat tidak {\em strict}.
 Bahasa pemrograman lain - misalnya Java (dan umumnya bahasa pemrograman
 yang berorientasi obyek) - sangat ketat dalam hal ini.
+
+
+\section{List}
+Python memiliki struktur data {\em list}, yang sama dengan {\em array}
+(larik) di bahasa pemrograman lainnya. Untuk membuat {\em list} kita
+menggunakan tanda siku kotak. Contoh berikut ini menunjukkan penggunaan 
+struktur data {\em list}.
+
+\begin{verbatim}
+# contoh list di Python
+daftar = [7, 1, 5, 3, 2, 4, 6, 8, 3, 5]
+print(daftar)
+print("list memiliki", len(daftar), "elemen")
+
+# akses elemen yang pertama (dengan indeks 0)
+print("daftar[0] =", daftar[0])
+
+# menambahkan data ke list
+daftar = daftar + [7, 9]
+print(daftar)
+\end{verbatim}
+
+Ada banyak hal yang dapat kita lakukan dengan menggunakan struktur data
+{\em list} ini. Kita dapat menghapus ({\em remove}) elemen di daftar tersebut.
+Kita juga dapat memotong ({\em cut}) elemen yang berada di tengah-tengah.
+Selain itu juga kita dapat menghitung berapa kemunculan sebuah nilai
+tertentu pada {\em list} tersebut.
+
     
 \section{Input}
 Salah satu cara untuk mendapatkan masukan (input) dari pengguna secara
