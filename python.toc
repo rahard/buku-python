@@ -4,14 +4,14 @@
 \contentsline {section}{\numberline {1.3}Bahasa Python}{10}{section.1.3}
 \contentsline {section}{\numberline {1.4}Input}{12}{section.1.4}
 \contentsline {section}{\numberline {1.5}Pemrosesan Teks}{13}{section.1.5}
-\contentsline {section}{\numberline {1.6}Python3}{13}{section.1.6}
-\contentsline {chapter}{\numberline {2}Koding Tingkat Medium}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}Numpy}{15}{section.2.1}
-\contentsline {section}{\numberline {2.2}Matlplotlib}{15}{section.2.2}
-\contentsline {section}{\numberline {2.3}Pandas}{17}{section.2.3}
-\contentsline {section}{\numberline {2.4}Kriptografi}{18}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Fungsi Hash}{18}{subsection.2.4.1}
-\contentsline {chapter}{\numberline {3}Triks}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Server Web}{21}{section.3.1}
-\contentsline {chapter}{\numberline {4}Bibliography}{23}{chapter.4}
+\contentsline {section}{\numberline {1.6}Python3}{14}{section.1.6}
+\contentsline {chapter}{\numberline {2}Koding Tingkat Medium}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Numpy}{17}{section.2.1}
+\contentsline {section}{\numberline {2.2}Matlplotlib}{17}{section.2.2}
+\contentsline {section}{\numberline {2.3}Pandas}{20}{section.2.3}
+\contentsline {section}{\numberline {2.4}Kriptografi}{20}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Fungsi Hash}{21}{subsection.2.4.1}
+\contentsline {chapter}{\numberline {3}Triks}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Server Web}{23}{section.3.1}
+\contentsline {chapter}{\numberline {4}Bibliography}{25}{chapter.4}
 \contentsfinish 

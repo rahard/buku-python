@@ -160,6 +160,20 @@ In [3]:
 Masih ada satu cara lain menjalankan program Python, yaitu dengan menggunakan
 Jupyter. Yang ini akan kita bahas secara lebih khusus.
 
+Pada contoh-contoh di atas hasil print dicetak ke bawah. Bagaimana jika kita
+ingin hasil cetaknya tidak turun ke bawah atau tanpa {\em newline}?
+Cara berikut ini - dengan menambahkan (end = " ") - dapat digunakan:
+
+\begin{verbatim}
+for n in range(10):
+   print(n, end=" ")
+\end{verbatim}
+Keluaran dari program di atas adalah cetakan yang ke kanan.
+\begin{verbatim}
+0 1 2 3 4 5 6 7 8 9
+\end{verbatim}
+
+
 \section{Bahasa Python} 
 Tentang bahasa Python itu sendiri akan diperdalam pada versi berikutnya.
 Sementara itu fitur tentang bahasa Python akan dibahas sambil berjalan.
@@ -234,6 +248,42 @@ Ini merupakan ciri dari sebuah bahasa yang berorientasi obyek
 ({\em object oriented}).
 Untuk tipe data yang lainnya, operator tambah (+) kemungkinan juga akan
 memiliki perilaku yang berbeda.
+
+Mari kembali ke data yang berbentuk angka. Apa keluaran dari program
+di bawah ini?
+\begin{verbatim}
+a = 7
+b = 5
+c = a/b
+print(c)
+\end{verbatim}
+
+Keluarannya adalah nilai ``1.4''. Jenis atau tipe data dari ``a'' dan ``c''
+adalah berbeda. Tipe data ``a'' adalah {\em integer}, sementara itu
+tipe data ``c'' adalah {\em floating point}.
+
+\begin{verbatim}
+>>> a=7
+>>> type(a)
+<class 'int'>
+>>> b=5
+>>> c=a/b
+>>> type(c)
+<class 'float'>
+\end{verbatim}
+
+Bolehkah kita mencampurkan tipe data yang berbeda?
+Mari kita lanjutkan dengan contoh di atas.
+\begin{verbatim}
+d = a+c
+print(d)
+\end{verbatim}
+Keluaran dari kode di atas adalah ``8.4''. Artinya pencampuran tipe data
+yang berbeda (dalam hal ini adalah {\em integer} dan {\em float}) dapat
+dilakukan. Hasilnya adalah bilangan {\em float}.
+Hal ini menunjukkan bahwa bahasa Python dapat dibuat tidak {\em strict}.
+Bahasa pemrograman lain - misalnya Java (dan umumnya bahasa pemrograman
+yang berorientasi obyek) - sangat ketat dalam hal ini.
     
 \section{Input}
 Salah satu cara untuk mendapatkan masukan (input) dari pengguna secara

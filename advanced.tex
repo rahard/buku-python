@@ -2,7 +2,9 @@
 Pada bagian ini akan dibahas berbagai pemrograman Python yang lebih {\em advanced}. Sebetulnya yang akan dibahas adalah contoh-contoh kode Python dengan menggunakan berbagai paket yang tersedia.
 
 \section{Numpy}
-Numpy adalah paket python untuk berbagai aplikasi {\em scientific}. 
+Numpy adalah paket python untuk berbagai aplikasi {\em scientific}.
+Di dalamnya ada {\em N-dimensional object}, {\em linear algebra},
+{\em Fourier transform}, dan seterusnya.
 Sebagai contoh, jika kita ingin membangkitkan bilangan random dengan 
 distribusi tertentu (uniform atau normal), maka kita dapat menggunakan 
 paket Numpy ini.
@@ -13,7 +15,17 @@ tetapi jika belum terpasang maka modul Numpy ini dapat kita pasang sendiri.
 $ sudo pip install numpy
 \end{verbatim}
 
-(Contoh-contoh penggunaan paket Numpy akan digabungkan dengan bagian lain.)
+Contoh-contoh penggunaan paket Numpy akan digabungkan dengan bagian lain.
+Berikut ini adalah contoh sederhana penggunaan dari Numpy.
+
+\begin{verbatim}
+>>> import numpy as np
+>>> a = np.arange(15).reshape(3, 5)
+>>> a
+array([[ 0,  1,  2,  3,  4],
+       [ 5,  6,  7,  8,  9],
+       [10, 11, 12, 13, 14]])
+\end{verbatim}
 
 \section{Matlplotlib}
 Salah satu aplikasi yang cukup sering dibutuhkan ketika kita membuat program 

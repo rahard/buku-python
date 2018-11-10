@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.1)  21 OCT 2018 06:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.1)  29 OCT 2018 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1260,162 +1260,169 @@ rmation.[]
  []
 
 [9]
-Overfull \hbox (17.21985pt too wide) in paragraph at lines 169--173
+Overfull \hbox (5.39986pt too wide) in paragraph at lines 163--166
+[]\T1/pplj/m/n/10 Pada contoh-contoh di atas hasil print dic-etak ke bawah. Bag
+aimana 
+ []
+
+
+Overfull \hbox (17.21985pt too wide) in paragraph at lines 183--187
 []\T1/pplj/m/n/10 Variabel di dalam Python lang-sung da-pat di-gu-nakan tanpa m
 elakukan 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 178
+[10]
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 192
 .
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 178
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 192
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 178
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 192
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 178
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 192
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 178
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 192
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-) [10] [11]
-[12]
-Overfull \hbox (0.13913pt too wide) in paragraph at lines 303--303
+) [11] [12]
+[13]
+Overfull \hbox (0.13913pt too wide) in paragraph at lines 353--353
 []\T1/fvm/m/n/10 kalimat = raw_input("Masukkan kalimat yang cukup panjang.\n")[
 ] 
  []
 
 
-Overfull \hbox (3.39989pt too wide) in paragraph at lines 336--342
+Overfull \hbox (3.39989pt too wide) in paragraph at lines 386--392
 \T1/pplj/m/n/10 ``.bashrc'' pada \T1/pplj/m/it/10 home di-rec-tory \T1/pplj/m/n
 /10 Anda (atau pada berkas ``.bash_aliases''). 
  []
 
-[13]) [14]
+[14]) [15]
 \openout2 = `advanced.aux'.
 
- (./advanced.tex
-Chapter 2.
-[15
+ (./advanced.tex [16
 
 
 
 ]
+Chapter 2.
+[17]
 
-LaTeX Warning: Marginpar on page 16 moved.
+LaTeX Warning: Marginpar on page 18 moved.
 
-<graphics/random-data.png, id=144, 462.528pt x 346.896pt>
+<graphics/random-data.png, id=152, 462.528pt x 346.896pt>
 File: graphics/random-data.png Graphic file (type png)
 <use graphics/random-data.png>
-Package pdftex.def Info: graphics/random-data.png  used on input line 64.
+Package pdftex.def Info: graphics/random-data.png  used on input line 76.
 (pdftex.def)             Requested size: 312.01648pt x 234.01236pt.
 
-Overfull \hbox (6.81647pt too wide) in paragraph at lines 64--67
+Overfull \hbox (6.81647pt too wide) in paragraph at lines 76--79
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--67
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
  []
 
 
-Overfull \hbox (16.51976pt too wide) in paragraph at lines 76--86
+Overfull \hbox (16.51976pt too wide) in paragraph at lines 88--98
 \T1/pplj/m/n/10 nakan Numpy seperti con-toh di bawah ini. Berkas ``linear-regre
 ssion.csv'' 
  []
 
 
-Overfull \hbox (0.89948pt too wide) in paragraph at lines 76--86
+Overfull \hbox (0.89948pt too wide) in paragraph at lines 88--98
 \T1/pplj/m/n/10 dis-im-pan pada di-rek-tori di-mana kode ini di-jalankan. Vari-
 abel $\OML/zplm/m/it/10 x[]point$ 
  []
 
-
-Overfull \hbox (199.70349pt too wide) in paragraph at lines 88--88
+[18]
+Overfull \hbox (199.70349pt too wide) in paragraph at lines 100--100
 []\T1/fvm/m/n/10 np.savetxt("linear-regression.csv", np.column_stack([x_point, 
 y_point]), fmt='%.5f', delimiter=', ')[] 
  []
 
-[16]
-Overfull \hbox (35.95837pt too wide) in paragraph at lines 101--101
+
+Overfull \hbox (35.95837pt too wide) in paragraph at lines 113--113
 []\T1/fvm/m/n/10 # do not forget to install scipy first: python3 -m pip install
  scipy[] 
  []
 
 
-Overfull \hbox (5.25616pt too wide) in paragraph at lines 104--104
+Overfull \hbox (5.25616pt too wide) in paragraph at lines 116--116
 []\T1/fvm/m/n/10 my_csv = np.genfromtxt('linear-regression.csv', delimiter=',')
 [] 
  []
 
 
-Overfull \hbox (25.7243pt too wide) in paragraph at lines 106--106
+Overfull \hbox (25.7243pt too wide) in paragraph at lines 118--118
 []\T1/fvm/m/n/10 gradient,intercept,r_value,p_value,std_err=stats.linregress(xp
 ,yp)[] 
  []
 
-[17 <./graphics/random-data.png>]
-Overfull \hbox (0.39983pt too wide) in paragraph at lines 125--126
+[19 <./graphics/random-data.png>]
+Overfull \hbox (0.39983pt too wide) in paragraph at lines 137--138
 []\T1/pplj/m/n/10 Jika Anda meng-gu-nakan Python3, maka gu-nakan per-in-tah ber
 ikut.  
  []
 
 
-LaTeX Warning: Marginpar on page 18 moved.
+LaTeX Warning: Marginpar on page 20 moved.
 
-[18]
-Overfull \hbox (25.7243pt too wide) in paragraph at lines 178--178
+[20]
+Overfull \hbox (25.7243pt too wide) in paragraph at lines 190--190
 []\T1/fvm/m/n/10 375a6c46228994656932f4aa17d9ae50f21da75a31ff17f8517c255c06cba8
 09 -[] 
  []
 
 
-Overfull \hbox (71.77762pt too wide) in paragraph at lines 183--183
+Overfull \hbox (71.77762pt too wide) in paragraph at lines 195--195
 []\T1/fvm/m/n/10 375a6c46228994656932f4aa17d9ae50f21da75a31ff17f8517c255c06cba8
 09 pesan1.txt[] 
  []
 
 
-Overfull \hbox (71.77762pt too wide) in paragraph at lines 188--188
+Overfull \hbox (71.77762pt too wide) in paragraph at lines 200--200
 []\T1/fvm/m/n/10 5901bccc6a0556fac2b4a164ef831a7ed4ceddeb60c6ddde1162f5a40b9d29
 17 pesan2.txt[] 
  []
 
 
-Overfull \hbox (52.74152pt too wide) in paragraph at lines 204--204
+Overfull \hbox (52.74152pt too wide) in paragraph at lines 216--216
 $[]$\T1/pplj/m/n/8 https://rahard.wordpress.com/2018/03/10/berburu- 
  []
 
 )
 
-LaTeX Warning: Marginpar on page 19 moved.
+LaTeX Warning: Marginpar on page 21 moved.
 
-[19]
+[21]
 \openout2 = `tricks.aux'.
 
- (./tricks.tex [20
+ (./tricks.tex [22
 
 
 
 ]
 Chapter 3.
-) [21] (./python.bbl [22
+) [23] (./python.bbl [24
 
 
 ]
@@ -1427,7 +1434,7 @@ owstarted}) has been already used, duplicate ignored
 l.3 \bibitem{tensorflowstarted}
                                )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
- [23]
+ [25]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
  (./python.aux (./pengantar.aux)
 (./pendahuluan.aux) (./advanced.aux) (./tricks.aux))
@@ -1438,13 +1445,13 @@ Package rerunfilecheck Info: File `python.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 23838 strings out of 492649
- 399789 string characters out of 6129623
+ 23840 strings out of 492649
+ 399803 string characters out of 6129623
  504213 words of memory out of 5000000
  27297 multiletter control sequences out of 15000+600000
  603682 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,11n,45p,10415b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,11n,45p,10415b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
@@ -1454,10 +1461,10 @@ dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2018/texmf-dist/fon
 ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on python.pdf (23 pages, 123606 bytes).
+Output written on python.pdf (25 pages, 125410 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
  2686 words of extra memory for PDF output out of 10000 (max. 10000000)
 
