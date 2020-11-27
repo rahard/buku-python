@@ -23,3 +23,96 @@ sebuah aplikasi yang menggunakan protokol web. Untuk melihat data yang
 dikirimkan oleh aplikasi tersebut, saya arahkan dia ke web server ini dan
 kemudian saya perhatikan apa yang ditampilkan (yang diminta oleh aplikasi
 tersebut).
+
+\section{Membaca Berkas Konfugurasi config.ini}
+Seringkali ada kebutuhan untuk menyimpan {\em credential} (userid, password)
+dalam aplikasi. Sebagai contoh, kita ingin membuat koneksi ke server lain
+(server database, server FTP, dan sejenisnya) maka dibutuhkan informasi
+tentang nama atau nomor IP dari server yang dituju, userid dan password,
+dan informasi lainnya lagi.
+Seringkali informasi ini ditanam di dalam kode (source code).
+
+Apa beberapa masalah terkait dengan pendekatan ini (menanam credential)
+di dalam kode sumber.
+Pertama, jika terjadi perubahan (misal ada pergantian nomor IP dari server
+yang dituju) maka kita harus mencari di dalam kode mana saja terdapat
+penanaman informasi tersebut dan tentu saja harus diperbaharui.
+Bayangkan kalau informasi ini terdapat di beberapa berkas. 
+Bagaimana kita tahu itu ada dimana?
+Jika konfigurasi ini hanya ada di satu berkas, misalnya di berkas
+``config.ini'', maka operator hanya perlu melakukan perubahaan di berkas ini.
+
+Kedua, perubahan terhadap kode sangat berisiko. Beberapa kali terjadi
+kasus seseorang mengubah kode dari sebuah aplikasi (dengan bayangan
+minor update), ternyata aplikasi menjadi tidak berjalan.
+Ini dapat terjadi ketika update kekurangan tanda petik, misalnya,
+sehingga aplikasi malah menjadi ``error''.
+
+Jika kode ingin dibagikan, misal menggunakan github, maka credential
+sudah terpisahkan dengan kode sehingga kemungkinan tersebar juga lebih kecil.
+Tentu saja masih mungkin terjadi jika berkas config.ini berada dalam
+direktori yang dibagikan (share) dan tidak dimasukkan ke dalam
+berkas (.gitignore) dalam kasus github.
+
+Berikut ini adalah contoh kode yang lazim ditemui, yaitu menanamkan
+{\em credential} di dalam kode sumber. Perhatikan bahwa alamat server,
+userid, dan password tertanam dalam kode.
+
+\begin{verbatim}
+from ftplib import FTP
+
+SERVER = '192.168.4.29'
+NAMA = 'jabar'
+GEMBOK = 'juara2020'
+
+ftp = FTP(SERVER)
+ftp.login(user=NAMA, passwd=GEMBOK)
+ftp.dir()
+ftp.quit()
+\end{verbatim}
+
+Cara yang lebih baik adalah dengan menyimpan credential tersebut
+ke dalam sebuah berkas konfigurasi. Berikut ini adalah sebuah
+contoh isi berkas ``config.ini''.
+
+\begin{verbatim}
+[aplikasiku]
+   server = 192.168.4.29
+   user = jabar
+   password = juara2020
+[queue]
+   server = rabbitmq-server
+   user = rabbitku
+   password = sangatrahasia6677
+\end{verbatim}
+
+Berkas ini dapat dibaca dari aplikasi dengan cara berikut, dengan asumsi
+bahwa berkas ``config.ini'' berada dalam direktori yang sama dengan
+aplikasi ini. Untuk lebih meningkatkan keamanan, seringkali letak berkas
+konfigurasi berada di luar struktur direktori ini (di atasnya). Jadi
+variabel CONF dapat diisi dengan ``../config.in''.
+
+
+\begin{verbatim}
+from ftplib import FTP
+from configparser import ConfigParser
+
+CONF='config.ini'
+config = ConfigParser()
+# return filename
+config.read(CONF)
+
+SERVER = config.get('aplikasiku','server')
+NAMA = config.get('aplikasiku','user')
+GEMBOK = config.get('aplikasiku','password')
+
+ftp = FTP(SERVER)
+ftp.login(user=NAMA, passwd=GEMBOK)
+ftp.dir()
+ftp.quit()
+\end{verbatim}
+
+Penjelasan mengenai ini ada dalam video berikut.
+\begin{verbatim}
+https://www.youtube.com/watch?v=jze3DC6ohRc
+\end{verbatim}
