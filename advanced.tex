@@ -1,5 +1,57 @@
 \chapter{Koding Tingkat Medium}
-Pada bagian ini akan dibahas berbagai pemrograman Python yang lebih {\em advanced}. Sebetulnya yang akan dibahas adalah contoh-contoh kode Python dengan menggunakan berbagai paket yang tersedia.
+Pada bagian ini akan dibahas berbagai pemrograman Python yang lebih {\em advanced}. 
+Sebetulnya yang akan dibahas adalah contoh-contoh kode Python dengan menggunakan 
+berbagai paket yang tersedia.
+
+\section{Argumen CLI}
+Seringkali kita harus membuat sebuah program dalam bentuk {\em command line interface}
+(CLI) yang kemudian membaca argumen yang diberikan. 
+Misalnya kita ingin program kita memproses sebuah berkas yang namanya kita
+berikan di {\em command line}.
+
+\begin{verbatim}
+$ program filename.pdf
+\end{verbatim}
+
+Apa yang kita berikan kepada program di atas disebut {\em argument}.
+Pada contoh di atas, {\em argument}-nya adalah ``filename.pdf''.
+Program kita harus dapat membaca {\em argument} yang kita berikan kepada program
+tersebut. Bagaimana caranya? Ada banyak caranya. Salah satunya dicontohkan
+pada contoh berikut ini.
+
+\begin{verbatim}
+# contoh parsing argumen yang diberikan kepada program
+# beri nama skrip ini cli-args.py
+# cara menjalankan:
+#    python3 cli-args.py opsi1 opsi2 opsi3 
+# opsi bisa banyak
+
+import sys
+# periksa jumlah argumennya
+
+numberargs = len(sys.argv)
+# tanpa argumen, hasilnya akan 0 (nol)
+# nama skrip adalah sys.argv[0]
+
+# print argumen yang diberikan
+for i in range(numberargs):
+   print(i, sys.argv[i])
+\end{verbatim}}
+
+Dari contoh tersebut, Anda dapat mengembangkan hal-hal yang lain.
+Misalnya Anda ingin memastikan bahwa program Anda mendapatkan {\em argument}
+dalam jumlah yang cukup (misalnya harus 3). Jika argumen yang diberikan kurang,
+maka dia akan memberikan petunjuk cara penggunaan skrip (program) kita
+dan kemudian keluar (dengan exit).
+(Catatan: biasanya {\em exit} memiliki nilai tidak nol kalau ada kesalahan.
+Kalau keluar normal, angkanya nol.)
+
+\begin{verbatim}
+if (numberargs) < 4:
+   print("Usage: " + sys.argv[0] + " data1 data2 data3")
+exit(1)
+    
+\end{verbatim}
 
 \section{Numpy}
 Numpy adalah paket python untuk berbagai aplikasi {\em scientific}.
