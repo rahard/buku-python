@@ -79,6 +79,48 @@ array([[ 0,  1,  2,  3,  4],
        [10, 11, 12, 13, 14]])
 \end{verbatim}
 
+Berikut adalah contoh operasional matriks dengan menggunakan numpy.
+Pertama, kita dapat membuat matriks $a$ dan $b$ kemudian menjumlahkan
+dan mengalikan matriks tersebut.
+
+\begin{verbatim}
+import numpy as np
+a = np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(a)
+b = np.array([[3,3,3],[5,5,5],[5,3,1]])
+print(b)
+c = a+b
+print(c)
+d = np.matmul(a, b)
+print(d)
+\end{verbatim}
+
+Keluaran dari perintah di atas adalah seperti ini. Pertama-tama ditampilkan
+matriks $a$ dan $b$, kemudian operasi penambahan dan perkalian.
+Perhatikan bahwa operasi perkalian matriks menggunakan fungsi {\em matmul}.
+\begin{verbatim}
+ [1 2 3]
+ [4 5 6]
+ [7 8 9]]
+
+[[3 3 3]
+ [5 5 5]
+ [5 3 1]]
+
+[[ 4  5  6]
+ [ 9 10 11]
+ [12 11 10]]
+
+[[ 28  22  16]
+ [ 67  55  43]
+ [106  88  70]]
+\end{verbatim}
+
+Contoh-contoh di atas hanya sekedar ilustrasi bagaimana kita menggunakan
+modul {\em Numpy}. Secara umum, jika ada pemrosesan data yang multi dimensional
+dan seringkali terkait dengan operasi matematika, maka Numpy
+sangat bermanfaat.
+
 \section{Matlplotlib}
 Salah satu aplikasi yang cukup sering dibutuhkan ketika kita membuat program 
 untuk keperluan penelitian adalah membuat grafik (plot). 
@@ -178,7 +220,10 @@ dapat digambarkan pula.
 
 \section{Pandas}
 Pandas adalah library untuk data processing. Dia banyak digunakan untuk
-berbagai aplikasi, seperti misalnya di Machine Learning.
+berbagai aplikasi, seperti misalnya di {\em Artificial Intelligence}
+(AI) atau {\em Machine Learning}, statistik, dan operasi yang melibatkan
+banyak data dalam bentuk tabel.
+Bayangkan ini seperti menggunakan {\em spreadsheet} (seperti Excel).
 
 Langkah pertama yang dilakukan adalah memasang Pandas.
 
@@ -207,7 +252,8 @@ ser = pd.Series([1,3,5,7,np.nan,9,11])
 print(ser)
 \end{verbatim}
 
-Hasilnya adalah sebagai berikut.
+Hasilnya adalah sebagai berikut. Perhatikan bentuk keluarannya
+yang seperti tabel dalam {\em spreadsheet}.
 \begin{verbatim}
 0     1.0
 1     3.0
