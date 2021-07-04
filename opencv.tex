@@ -1,0 +1,31 @@
+\section{OpenCV}
+OpenCV adalah kumpulan pustaka untuk bidang {\em computer vision}.
+Pustaka ini dapat diakses dengan menggunakan bermacam-macam bahasa pemrograman,
+termasuk bahasa Python.
+Untuk memasang pustaka atau modul ini gunakan perintah.
+
+\begin{verbatim}
+pip install opencv-python
+\end{verbatim}
+
+Berikut ini adalah sebuah contoh penggunaan OpenCV untuk membaca
+sebuah berkas gambar dan mengubahnya warnanya menjadi abu-abu (greyscale).
+Perhatikan nama berkas yang dalam contoh ini berada di direktori
+satu tingkat di atasnya. Ganti nama berkas ini dengan nama yang sesuai
+dengan berkas yang ingin Anda proses.
+
+\begin{verbatim}
+import cv2
+
+img = cv2.imread('../graphics/br-pixel.png')
+grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+cv2.imshow('Gambar Asli', img)
+cv2.imshow('Gambar grey', grey)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+\end{verbatim}
+
+Modul OpenCV ini dapat digunakan di berbagai aplikasi, termasuk untuk
+Artificial Intelligence atau Machine Learning.

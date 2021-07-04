@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.1)  2 JUL 2021 20:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.1)  4 JUL 2021 15:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1329,7 +1329,7 @@ LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 39.
 
 LaTeX Warning: Marginpar on page 20 moved.
 
-<graphics/random-data.png, id=174, 462.528pt x 346.896pt>
+<graphics/random-data.png, id=178, 462.528pt x 346.896pt>
 File: graphics/random-data.png Graphic file (type png)
 <use graphics/random-data.png>
 Package pdftex.def Info: graphics/random-data.png  used on input line 170.
@@ -1392,43 +1392,43 @@ ikut.
 
 LaTeX Warning: Marginpar on page 22 moved.
 
-[22]
-Overfull \hbox (25.7243pt too wide) in paragraph at lines 288--288
+(./opencv.tex [22])
+Overfull \hbox (25.7243pt too wide) in paragraph at lines 290--290
 []\T1/fvm/m/n/10 375a6c46228994656932f4aa17d9ae50f21da75a31ff17f8517c255c06cba8
 09 -[] 
  []
 
 
-Overfull \hbox (71.77762pt too wide) in paragraph at lines 293--293
+Overfull \hbox (71.77762pt too wide) in paragraph at lines 295--295
 []\T1/fvm/m/n/10 375a6c46228994656932f4aa17d9ae50f21da75a31ff17f8517c255c06cba8
 09 pesan1.txt[] 
  []
 
-
-Overfull \hbox (71.77762pt too wide) in paragraph at lines 298--298
+[23]
+Overfull \hbox (71.77762pt too wide) in paragraph at lines 300--300
 []\T1/fvm/m/n/10 5901bccc6a0556fac2b4a164ef831a7ed4ceddeb60c6ddde1162f5a40b9d29
 17 pesan2.txt[] 
  []
 
 
-Overfull \hbox (52.74152pt too wide) in paragraph at lines 314--314
+Overfull \hbox (52.74152pt too wide) in paragraph at lines 316--316
 $[]$\T1/pplj/m/n/8 https://rahard.wordpress.com/2018/03/10/berburu- 
  []
 
 )
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 24 moved.
 
-[23]
+[24]
 \openout2 = `tricks.aux'.
 
- (./tricks.tex [24
+ (./tricks.tex
+Chapter 3.
+[25
 
 
 
 ]
-Chapter 3.
-[25]
 Overfull \hbox (19.11987pt too wide) in paragraph at lines 57--60
 []\T1/pplj/m/n/10 Berikut ini adalah con-toh kode yang lazim dite-mui, yaitu me
 nanamkan 
@@ -1453,14 +1453,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `python.out' has not changed.
-(rerunfilecheck)             Checksum: E474008AE0DD37FC9C17B0079B56B82A;1964.
+(rerunfilecheck)             Checksum: C2B8964996FA472283A554A9CECA06EB;2049.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 23850 strings out of 492649
- 399903 string characters out of 6129623
+ 23855 strings out of 492649
+ 399955 string characters out of 6129623
  504213 words of memory out of 5000000
- 27300 multiletter control sequences out of 15000+600000
+ 27301 multiletter control sequences out of 15000+600000
  603682 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,11n,45p,10415b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1473,10 +1473,10 @@ dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2018/texmf-dist/fon
 ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on python.pdf (29 pages, 133439 bytes).
+Output written on python.pdf (29 pages, 134875 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
- 2710 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 269 PDF objects out of 1000 (max. 8388607)
+ 221 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 2718 words of extra memory for PDF output out of 10000 (max. 10000000)
 
