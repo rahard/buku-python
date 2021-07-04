@@ -13,9 +13,9 @@
 \contentsline {section}{\numberline {2.4}Pandas}{22}{section.2.4}
 \contentsline {section}{\numberline {2.5}OpenCV}{22}{section.2.5}
 \contentsline {section}{\numberline {2.6}Kriptografi}{23}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Fungsi Hash}{23}{subsection.2.6.1}
-\contentsline {chapter}{\numberline {3}Triks}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Server Web}{25}{section.3.1}
-\contentsline {section}{\numberline {3.2}Membaca Berkas Konfugurasi config.ini}{25}{section.3.2}
-\contentsline {chapter}{\numberline {4}Bibliography}{29}{chapter.4}
+\contentsline {subsection}{\numberline {2.6.1}Fungsi Hash}{24}{subsection.2.6.1}
+\contentsline {chapter}{\numberline {3}Triks}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Server Web}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}Membaca Berkas Konfugurasi config.ini}{27}{section.3.2}
+\contentsline {chapter}{\numberline {4}Bibliography}{31}{chapter.4}
 \contentsfinish 
