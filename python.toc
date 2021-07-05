@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {2.3}Matlplotlib}{19}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Pandas}{22}{section.2.4}%
 \contentsline {section}{\numberline {2.5}OpenCV}{22}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Kriptografi}{23}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Kriptografi}{24}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Fungsi Hash}{24}{subsection.2.6.1}%
 \contentsline {chapter}{\numberline {3}Triks}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Server Web}{27}{section.3.1}%
