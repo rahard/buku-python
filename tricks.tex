@@ -10,7 +10,7 @@ komputer yang lain. Maka komputer dimana berkas tersebut berada saya jalankan
 perintah ini (pada direktori dimana berkas tersebut berada).
 
 \begin{verbatim}
-python -m SimpleHTTPServer 8008
+python -m http.server 8008
 \end{verbatim}
 
 Perintah di atas akan membuat sebuah server web yang berjalan pada {\em port}
@@ -115,4 +115,41 @@ ftp.quit()
 Penjelasan mengenai ini ada dalam video berikut.
 \begin{verbatim}
 https://www.youtube.com/watch?v=jze3DC6ohRc
+\end{verbatim}
+
+
+\section{Menulis berkas dalam format Unicode}
+Unicode merupakan alternatif pengkodean karakter untuk karakter yang tidak
+terdapat di kode ASCII. Bagaimana membuat berkas yang berisi karaktor Unicode?
+Berikut ini adalah salah satu contohnya.
+
+\begin{verbatim}
+unicode_text = u'BUDI Rahardjo'
+myencoded = unicode_text.encode('utf-16-le')
+#myencoded = unicode_text.encode('utf-16-be')
+   
+a_file = open("budi-unicode.txt", "wb")
+a_file.write(myencoded)
+
+a_file = open("budi-unicode.txt", "r", encoding='utf-16-le')
+#a_file = open("budi-unicode.txt", "r", encoding='utf-16-be')
+# reads contents of a file
+contents = a_file.read()
+print(contents)   
+\end{verbatim}   
+
+Kode di atas menyimpan string 'Budi Rahardjo' ke dalam sebuah berkas dalam
+format UTF-16 dengan enkoding {\em little endian} (le) atau {\em big endian}
+(be)\footnote{Mengenai little endian atau big endian akan dibahas secara terpisah.}.
+Untuk melihat bagaimana data tersebut disimpan dalam berkas,
+dapat digunakan peritah ``hexdump'' atau ``xxd''.
+Perhatikan bahwa jika Anda menggunakan LE atau BE posisi bytes akan tertukar.
+Silahkan dicoba.
+
+\begin{verbatim}
+hexdump budi-unicode.txt
+
+0000000 0042 0055 0044 0049 0020 0052 0061 0068
+0000010 0061 0072 0064 006a 006f               
+000001a
 \end{verbatim}
