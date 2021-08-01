@@ -44,6 +44,21 @@ yang sudah terpasang Python. Untuk pendekatan ini kita tidak perlu memasang
 Python lagi. Lebih mudah untuk belajar dan bahkan untuk membuat prototipe.
 Buku ini akan diperbaharui dengan cara menggunakan Google Colabs ini.
 
+\begin{figure}
+\includegraphics[width=1.0\linewidth]{graphics/google-colab.jpg}
+\caption{Tampilan Google Colab}
+\end{figure}
+
+Layanan Google Colab dapat diakses dengan menggunakan {\em browser} dan
+diarahkan ke alamat colab.research.google.com (atau gunakan search engine
+untuk mencapai domain tersebu).
+Setelah ditampilkan halaman depan, kita dapat membuka program baru dengan
+membuka {\em New Notebook} atau membukan kodingan lama kita yang sudah
+disimpan di akun Google Drive kita.
+Google colab menyediakan sebuah komputer virtual yang dapat kita gunakan
+untuk melakukan pemrograman dalam bahasa Python (yang dalam hal ini dapat
+kita pilih mau menggunakan versi 2 atau 3).
+
 \section{Memulai}
 Untuk memastikan Python berjalan, ketikkan "python" di terminal Linux Anda.
 (Bagi yang menggunakan Windows, hal ini dapat dilakukan dengan menggunakan
@@ -59,7 +74,11 @@ Type "help", "copyright", "credits" or "license" for more information.
 \end{verbatim}
 
 Dari tampilan di atas dapat kita ketahui bahwa Python yang saya gunakan adalah
-versi 2.7.12. Sekarang kita dapat memulai pemrograman Python dengan menuliskan
+versi 2.7.12\footnote{Pada awal penulisan buku ini, versi bahasa Python Yang
+stabil digunakan adalah versi 2. Saat ini versi~3 merupakan versi yang dianggap
+sebagai versi stabil. Untuk itu buku ini sedikit demi sedikit akan diperbaharui
+dengan menggunakan Python versi 3.}. 
+Sekarang kita dapat memulai pemrograman Python dengan menuliskan
 program ``hello world'' (yang merupakan standar bagi belajar pemrograman).
 Ketikkan ``print ...'' (dan seterusnya seperti di bawah ini).
 
@@ -179,6 +198,21 @@ Keluaran dari program di atas adalah cetakan yang ke kanan.
 0 1 2 3 4 5 6 7 8 9
 \end{verbatim}
 
+
+\section{Shell atau IDE}
+Pemrograman Python dapat dilakukan dengan editor seperti yang sudah ditunjukkan
+di atas dan kemudian menjalankannya secara {\em command line} di shell,
+Cara lain yang lebih sering dilakukan orang adalah menggunakan sebuah
+Integrated Development Editor (IDE) untuk melakukan pemrogramannnya.
+Menjalankan kodenya dapat dikomandokan dari IDE atau dari shell juga.
+
+Ada beberapa IDE untuk Python, seperti misalnya IDLE.
+Yang sekarang sedang naik daun adalah dengan menggunakan {\em Jupyter Notebook}.
+Yang menarik dengan pendekatan ini adalah kita melakukan dokumentasi dan
+pemrograman sekaligus di lingkungan tersebut.
+Google Colab pun sesungguhnya menggunakan konsep Jupyter Notebook ini tetapi
+membawanya ke lingkungan {\em cloud}.
+Nanti ini akan kita bahas dengan lebih lanjut.
 
 \section{Bahasa Python} 
 Tentang bahasa Python itu sendiri akan diperdalam pada versi berikutnya.
