@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.1)  1 AUG 2021 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.1)  1 AUG 2021 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -927,7 +927,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 ]
 Chapter 1.
 [7]
-<graphics/google-colab.jpg, id=129, 590.205pt x 255.20343pt>
+<graphics/google-colab.jpg, id=137, 590.205pt x 255.20343pt>
 File: graphics/google-colab.jpg Graphic file (type jpg)
 <use graphics/google-colab.jpg>
 Package pdftex.def Info: graphics/google-colab.jpg  used on input line 48.
@@ -1015,24 +1015,30 @@ Overfull \hbox (17.21985pt too wide) in paragraph at lines 223--227
 elakukan 
  []
 
-[12] [13] [14]
-Overfull \hbox (8.17181pt too wide) in paragraph at lines 421--421
+[12] [13]
+Overfull \hbox (8.28984pt too wide) in paragraph at lines 355--358
+[]\T1/pplj/m/n/10 Ada juga al-go-ritme yang lama per-hi-tun-gan-nya berband-ing
+ kuadratis 
+ []
+
+[14] [15] [16]
+Overfull \hbox (8.17181pt too wide) in paragraph at lines 533--533
 []\T1/cmtt/m/n/10 kalimat = raw_input("Masukkan kalimat yang cukup panjang.\n")
 [] 
  []
 
-[15]
-Overfull \hbox (3.39989pt too wide) in paragraph at lines 454--460
+[17]
+Overfull \hbox (3.39989pt too wide) in paragraph at lines 566--572
 \T1/pplj/m/n/10 ``.bashrc'' pada \T1/pplj/m/it/10 home di-rec-tory \T1/pplj/m/n
 /10 Anda (atau pada berkas ``.bash_aliases''). 
  []
 
-) [16]
+) [18]
 \openout2 = `advanced.aux'.
 
  (./advanced.tex
 Chapter 2.
-[17
+[19
 
 
 
@@ -1040,11 +1046,11 @@ Chapter 2.
 
 LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 39.
 
-[18] [19]
+[20] [21]
 
-LaTeX Warning: Marginpar on page 20 moved.
+LaTeX Warning: Marginpar on page 22 moved.
 
-<graphics/random-data.png, id=187, 462.528pt x 346.896pt>
+<graphics/random-data.png, id=202, 462.528pt x 346.896pt>
 File: graphics/random-data.png Graphic file (type png)
 <use graphics/random-data.png>
 Package pdftex.def Info: graphics/random-data.png  used on input line 191.
@@ -1077,7 +1083,7 @@ Overfull \hbox (212.87183pt too wide) in paragraph at lines 215--215
  y_point]), fmt='%.5f', delimiter=', ')[] 
  []
 
-[20]
+[22]
 Overfull \hbox (44.91284pt too wide) in paragraph at lines 228--228
 []\T1/cmtt/m/n/10 # do not forget to install scipy first: python3 -m pip instal
 l scipy[] 
@@ -1098,22 +1104,22 @@ p,yp)[]
 
 Underfull \vbox (badness 2837) has occurred while \output is active []
 
- [21 <./graphics/random-data.png>]
+ [23 <./graphics/random-data.png>]
 Overfull \hbox (0.39983pt too wide) in paragraph at lines 255--256
 []\T1/pplj/m/n/10 Jika Anda meng-gu-nakan Python3, maka gu-nakan per-in-tah ber
 ikut.  
  []
 
 
-LaTeX Warning: Marginpar on page 22 moved.
+LaTeX Warning: Marginpar on page 24 moved.
 
-(./opencv.tex [22]
+(./opencv.tex [24]
 Overfull \hbox (6.19981pt too wide) in paragraph at lines 28--33
 []\T1/pplj/m/n/10 Program akan menampilkan gam-bar se-belum dan sesu-dah dipros
 es, 
  []
 
-<graphics/br-pixel.png, id=203, 722.7pt x 569.12625pt>
+<graphics/br-pixel.png, id=218, 722.7pt x 569.12625pt>
 File: graphics/br-pixel.png Graphic file (type png)
 <use graphics/br-pixel.png>
 Package pdftex.def Info: graphics/br-pixel.png  used on input line 35.
@@ -1123,7 +1129,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<graphics/br-pixel-grey.png, id=204, 1445.4pt x 1138.2525pt>
+<graphics/br-pixel-grey.png, id=219, 1445.4pt x 1138.2525pt>
 File: graphics/br-pixel-grey.png Graphic file (type png)
 <use graphics/br-pixel-grey.png>
 Package pdftex.def Info: graphics/br-pixel-grey.png  used on input line 40.
@@ -1138,7 +1144,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
-) [23 <./graphics/br-pixel.png>]
+) [25 <./graphics/br-pixel.png>]
 Overfull \hbox (34.4154pt too wide) in paragraph at lines 311--311
 []\T1/cmtt/m/n/10 375a6c46228994656932f4aa17d9ae50f21da75a31ff17f8517c255c06cba
 809 -[] 
@@ -1150,7 +1156,7 @@ Overfull \hbox (81.65387pt too wide) in paragraph at lines 316--316
 809 pesan1.txt[] 
  []
 
-[24 <./graphics/br-pixel-grey.png (PNG copy)>]
+[26 <./graphics/br-pixel-grey.png (PNG copy)>]
 Overfull \hbox (81.65387pt too wide) in paragraph at lines 321--321
 []\T1/cmtt/m/n/10 5901bccc6a0556fac2b4a164ef831a7ed4ceddeb60c6ddde1162f5a40b9d2
 917 pesan2.txt[] 
@@ -1163,24 +1169,24 @@ $[]$\T1/pplj/m/n/8 https://rahard.wordpress.com/2018/03/10/berburu-
 
 )
 
-LaTeX Warning: Marginpar on page 25 moved.
+LaTeX Warning: Marginpar on page 27 moved.
 
-[25]
+[27]
 \openout2 = `tricks.aux'.
 
- (./tricks.tex [26
+ (./tricks.tex [28
 
 
 
 ]
 Chapter 3.
-[27]
+[29]
 Overfull \hbox (19.11987pt too wide) in paragraph at lines 57--60
 []\T1/pplj/m/n/10 Berikut ini adalah con-toh kode yang lazim dite-mui, yaitu me
 nanamkan 
  []
 
-[28]
+[30]
 Overfull \hbox (2.9231pt too wide) in paragraph at lines 134--134
 []\T1/cmtt/m/n/10 a_file = open("budi-unicode.txt", "r", encoding='utf-16-le')[
 ] 
@@ -1192,11 +1198,11 @@ Overfull \hbox (8.17181pt too wide) in paragraph at lines 135--135
 [] 
  []
 
-[29]
+[31]
 
-LaTeX Warning: Marginpar on page 30 moved.
+LaTeX Warning: Marginpar on page 32 moved.
 
-) [30] (./python.bbl
+) [32] (./python.bbl
 Chapter 4.
 pdfTeX warning (ext4): destination with the same identifier (name{cite.tensorfl
 owstarted}) has been already used, duplicate ignored
@@ -1205,7 +1211,7 @@ owstarted}) has been already used, duplicate ignored
 l.3 \bibitem{tensorflowstarted}
                                )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
- [31
+ [33
 
 
 ]
@@ -1214,23 +1220,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 (./pendahuluan.aux) (./advanced.aux) (./tricks.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
-
-
-Package rerunfilecheck Warning: File `python.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `python.out':
-(rerunfilecheck)             Before: E28F2E09D57D89BC1DA07FC7CE27027E;2291
-(rerunfilecheck)             After:  AFF5A9274D0632386937D646804E749D;2422.
+Package rerunfilecheck Info: File `python.out' has not changed.
+(rerunfilecheck)             Checksum: 90D3643F245029F6EFD6D680799E9B2D;2537.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 15911 strings out of 483107
- 238869 string characters out of 5964631
- 543628 words of memory out of 5000000
- 30467 multiletter control sequences out of 15000+600000
- 605054 words of font info for 113 fonts, out of 8000000 for 9000
+ 15919 strings out of 483107
+ 238937 string characters out of 5964631
+ 543629 words of memory out of 5000000
+ 30469 multiletter control sequences out of 15000+600000
+ 606227 words of font info for 116 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  52i,12n,51p,946b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/budi/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600p
@@ -1242,10 +1241,10 @@ type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 fpl/fplrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on python.pdf (31 pages, 2126097 bytes).
+Output written on python.pdf (33 pages, 2130796 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
- 2741 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 393 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 2757 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -326,6 +326,118 @@ Bahasa pemrograman lain - misalnya Java (dan umumnya bahasa pemrograman
 yang berorientasi obyek) - sangat ketat dalam hal ini.
 
 
+\section{Kompleksitas}
+Pada bagian sebelumnya kebetulan sempat disinggung tentang {\em loop},
+maka pada bagian ini pembahasannya sedikit melebar ke aspek Kompleksitas
+(dari subuah algoritme).
+Ini memang lebih berbau aspek teoritis dari ilmu komputer.
+
+Ketika seseorang mengembangkan atau menggunakan sebuah algoritme untuk
+mengimplementasikan programnya, maka ada satu hal yang perlu diperhatikan
+yaitu kompleksitas.
+Singkatnya, kompleksitas itu menunjukkan seberapa besar sumber daya yang
+akan digunakan (dibutuhkan) untuk menjalankan algoritme tersebut sebagai
+sebuah fungsi dari jumlah data yang diproses.
+Sebagai contoh, sebuah aplikasi mungkin berjalan dengan baik ketika jumlah
+datanya hanya 100, tetapi kemudian menjadi sangat lambat atau bahkan tidak
+jalan ketika jumlah datanya 1000 atau lebih.
+Nah jumlah data tersebut (100 atau 1000) merupakan sebuah paramter yang
+menjadi fungsi dari sumber daya yang digunakan. Biasanya ini kita sebut $n$.
+Kompleksitas kemudian menjukkan seberapa besar sumber daya sebagai fungsi
+dari $n$ itu.
+
+Ada algoritme yang lama komputasinya bergantung liner terhadap jumlah data
+($n$) itu. Jadi misalnya untuk 100 data dibutuhkan 100 detik, maka untuk
+1000 data dibutuhkan waktu 1000 detik. Bagaimana jika jumlah datanya 10000?
+Maka dapat diperkirakan waktu yang dibutuhkan adalah 10000 detik.
+Kompleksitas yang sepert ini disebuh $O(n)$.
+
+Ada juga algoritme yang lama perhitungannya berbanding kuadratis (pangkat dua)
+terhadap jumlah datanya. 
+Kompleksitas yang model seperti ini disebut $O(n^{2})$
+
+
+\begin{verbatim}
+n=1000
+import time
+
+start_time = time.time()
+a = 0
+for x in range(n):
+    a = a + 0
+end_time = time.time()
+elapsed = end_time - start_time
+print("elapsed %s seconds ..." % elapsed)
+\end{verbatim}
+
+Contoh kode di atas menunjukkan sebuah {\em loop} dengan 1000 kali putaran.
+Jumlah loop ditentukan oleh variabel $n$, yang pada contoh di atas diisi 1000.
+Di dalam setiap loop ada perintah {\em dummy}, yaitu variabel $a$ ditambah
+dengan bilangan nol. Ini hanya sekedar untuk menunjukkan beban komputasi penjumlahan.
+Tentu saja di dalam dunia nyata, komputasiny lebih berat.
+
+Jika program tersebut dijalankan maka dia akan menghasilkan waktu eksekusi
+sebanyak $4,5538 \times 10^{-5}$ detik.
+Angka tepatnya tentu saja bergantung kepada komputer yang digunakan.
+Ini hanya sebagai contoh saja, yang kebetulan diambil dari laptop saya.
+
+Sekarang mari kita tambahkan loop di dalamnya sehingga kodenya menjadi seperti berikut.
+
+\begin{verbatim}
+n=1000
+import time
+
+start_time = time.time()
+a = 0
+for x in range(n):
+    for y in range(n):
+        a = a + 0
+end_time = time.time()
+elapsed = end_time - start_time
+print("elapsed %s seconds ..." % elapsed)
+\end{verbatim}
+
+Pada prinsipnya, kita menambahkan sebuah loop lagi di dalam loop sebelumnya.
+Jadi di dalam loop yang $x$, kita menambahkan loop $y$ yang jumlah loop-nya
+juga sama ($n$). Jika kode ini dijalankan maka dihasilkan keluaran waktu
+$0,05148$ detik, atau $5,418 \times 10^{-2}$.
+Perhatikan bahwa waktu yang dibutuhkan untuk mengeksekusi ini 1000 kali
+lebih besar (lebih lambat) dari waktu sebelumnya.
+Kompleksitas dari algoritme ini menjadi $O(n^2)$.
+
+Mari kita tambahkan satu loop lagi di dalam loop $y$ sehingga kodenya menjadi
+seperti berikut.
+
+\begin{verbatim}
+n=1000
+import time
+
+start_time = time.time()
+a = 0
+for x in range(n):
+    for y in range(n):
+       for z in range(n): 
+           a = a + 0
+end_time = time.time()
+elapsed = end_time - start_time
+print("elapsed %s seconds ..." % elapsed)
+\end{verbatim}
+
+Seperti sebelumnya, kode ini kita jalankan juga. Hasilnya adalah $51,1767$ detik.
+Atau $5,11767 \times 10$. Perhatikan bahwa ini 1000 kali lebih lambat dari sebelumnya
+dan 1 juta kali lebih lambat dari loop yang pertama kali (yang hanya ada $x$).
+Kompleksitas dari algoritme ini adalah $O(n^3)$.
+
+Anda boleh mencoba menggantikan angka variabel $n$ tadi dengan 10000.
+Namun perlu diingat bahwa waktu yang dibutuhkan untuk menjalankan kode
+tersebut menjadi sangat lama. Jika Anda tertarik, coba jalankan.
+Berapa detik waktu yang dibutuhkan untuk menjalankan itu?
+
+Apa yang kita bahas ini adalah kompleksitas yang dikaitkan dengan lamanya
+(waktu) eksekusi. Ada juga kompleksitas yang terkait dengan besarnya
+memori yang dibutuhkan (untuk memproses data).
+Ini merupakan bahasan yang lebih kompleks, tetapi prinsipnya sama.
+
 \section{List}
 Python memiliki struktur data {\em list}, yang sama dengan {\em array}
 (larik) di bahasa pemrograman lainnya. Untuk membuat {\em list} kita

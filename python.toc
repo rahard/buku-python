@@ -3,21 +3,22 @@
 \contentsline {section}{\numberline {1.2}Memulai}{8}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Shell atau IDE}{11}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Bahasa Python}{11}{section.1.4}%
-\contentsline {section}{\numberline {1.5}List}{13}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Input}{14}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Pemrosesan Teks}{15}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Python3}{16}{section.1.8}%
-\contentsline {chapter}{\numberline {2}Koding Tingkat Medium}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Argumen CLI}{17}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Numpy}{18}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Matlplotlib}{19}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Pandas}{22}{section.2.4}%
-\contentsline {section}{\numberline {2.5}OpenCV}{22}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Kriptografi}{24}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Fungsi Hash}{24}{subsection.2.6.1}%
-\contentsline {chapter}{\numberline {3}Triks}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Server Web}{27}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Membaca Berkas Konfugurasi config.ini}{27}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Menulis berkas dalam format Unicode}{29}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Bibliography}{31}{chapter.4}%
+\contentsline {section}{\numberline {1.5}Kompleksitas}{13}{section.1.5}%
+\contentsline {section}{\numberline {1.6}List}{16}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Input}{16}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Pemrosesan Teks}{17}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Python3}{18}{section.1.9}%
+\contentsline {chapter}{\numberline {2}Koding Tingkat Medium}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Argumen CLI}{19}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Numpy}{20}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Matlplotlib}{21}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Pandas}{24}{section.2.4}%
+\contentsline {section}{\numberline {2.5}OpenCV}{24}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Kriptografi}{26}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Fungsi Hash}{26}{subsection.2.6.1}%
+\contentsline {chapter}{\numberline {3}Triks}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Server Web}{29}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Membaca Berkas Konfugurasi config.ini}{29}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Menulis berkas dalam format Unicode}{31}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Bibliography}{33}{chapter.4}%
 \contentsfinish 
