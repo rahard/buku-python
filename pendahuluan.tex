@@ -554,9 +554,101 @@ sentimen seseorang di media sosial. Pikirkan algoritmanya untuk melakukan
 hal tersebut.
 
 
+\section{Membaca Berkas: topic generator}
+Salah satu kegunaan utama bahasa {\em scripting} seperti Python adalah
+untuk memproses sebuah berkas. Kata-kata atau data dalam berkas tersebut
+dapat diproses seperti telah diuraikan pada bagian sebelumnya.
+
+Pada bagian ini kita akan melihat bagaimana membaca sebuah berkas teks.
+Agar lebih menarik, kita akan melakukannya dalam konteks sebuah aplikasi,
+yaitu ``topic generator''. Singkatnya aplikasi ini digunakan untuk
+mengusulkan sebuah topik yang dapat Anda bahas ketika Anda ingin
+menulis untuk sebuah blog (atau bahkan vlog).
+Jika dijalankan, dia akan memberikan sebuah topik kepada Anda.
+Sihir? Magic? Smart?
+
+Sesungguhnya aplikasi ini hanya membaca sebuah berkas yang berisi 
+daftar topik-topik yang kita tulisakan sebelumnya. Kemudian dia 
+akan memilih (secara random) salah satu dari topik tersebut.
+Jadi aplikasinya sangat sederhana. 
+
+Berkas yang akan dibaca adalah sebuah berkas teks yang memiliki
+format sebagai berikut. Topik dan topik selanjutnya dipisahkan oleh
+baris yang berisi dua garis-garis (``---''). Contoh isi dari
+berkas ``topics.txt'' adalah seperti ini.
+Agar lebih fleksibel, topik dapat lebih dari satu baris.
+
+\begin{verbatim}
+Ceritakan tentang sepatu Anda
+--
+Buku apa yang paling Anda sukai
+--
+Binatang apa yang paling Anda sukai
+--
+Ceritakan tentang pengalaman yang paling menyedihkan
+ketika Anda sekolah
+--
+Buku (film) apa yang paling berkesan untuk Anda
+--
+\end{verbatim}
+
+
+Ada banyak cara untuk membaca berkas teks seperti itu.
+Untuk berkas yang ukurannya kecil, kita dapat membaca keseluruhan
+berkas dalam satu perintah. Ini biasanya dikenal dengan istilah ``slurp''.
+Ada pro dan kontra soal itu.
+Ada sebuah artikel yang mengatakan bahwa kalau kita melakukan {\em slurping},
+maka memori akan digunakan untuk data (betul) dan pembacaan
+akan membutuhkan waktu yang lebih lama\footnote{Saya baru tahu ini ketika
+menulis buku ini. Link menyusul.}.
+
+Kode untuk membaca berkas di atas, menyimpan topk dalam
+bentuk {\em list}, dan menampilkan salah satu topik tersebut
+secara random adalah sebagai berikut\footnote{Kode ini ada di 
+https://github.com/rahard/BRcoding}.
+
+\begin{verbatim}
+topicfile = "topics.txt"
+
+# kata orang jangan di-slurp tapi dibaca perbaris seperti ini
+with open(topicfile, 'r+') as f:
+    count = 1 
+    topic=''
+    topics=[]
+    for line in f:
+        if (line == "--\n"):
+            #print('{:>6} {}'.format(count, topic))
+            topics.append(topic)
+            topic=''
+            count += 1
+        else:
+            if (topic != ''):
+                # append to previous line with a space
+                topic = topic + ' ' + line[:-1]
+            else:
+                topic = topic + line[:-1] 
+
+# rangkuman
+print("There are", len(topics), "topics")
+
+# pilih sebuah topik secara random
+import random
+n = random.randint(0,len(topics)-1)
+print(n, topics[n])
+\end{verbatim}
+
+Kode ini dapat dijalankan dari CLI dan akan memilihkan salah satu
+topik secara random.
+Pada pembahasan yang lain, kita akan menggunakan kode ini dan
+menempatkannya dalam sebuah web dalam bentuk API.
+
 \section{Python3}
 Bagaimana caranya agar kita dapat menggunakan Python3 sebagai {\em default}
-dari Python? Cara yang paling mudah adalah dengan menggunakan fitur
+dari Python?\footnote{Bagian ini masih ada karena ketika buku ini ditulis,
+Python yang digunakan adalah versi 2. Jika nanti Python versi 2 sudah
+benar-benar dianggap tidak ada dan umumnya orang sudah menggunakan
+versi 3, maka bagian ini akan dihilangkan.}
+Cara yang paling mudah adalah dengan menggunakan fitur
 alias di shell (jika Anda menggunakan variasi dari UNIX).
 
 \begin{verbatim}

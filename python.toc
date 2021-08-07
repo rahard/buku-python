@@ -7,18 +7,19 @@
 \contentsline {section}{\numberline {1.6}List}{16}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Input}{16}{section.1.7}%
 \contentsline {section}{\numberline {1.8}Pemrosesan Teks}{17}{section.1.8}%
-\contentsline {section}{\numberline {1.9}Python3}{18}{section.1.9}%
-\contentsline {chapter}{\numberline {2}Koding Tingkat Medium}{19}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Argumen CLI}{19}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Numpy}{20}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Matlplotlib}{21}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Pandas}{24}{section.2.4}%
-\contentsline {section}{\numberline {2.5}OpenCV}{24}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Kriptografi}{26}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Fungsi Hash}{26}{subsection.2.6.1}%
-\contentsline {chapter}{\numberline {3}Triks}{29}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Server Web}{29}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Membaca Berkas Konfugurasi config.ini}{29}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Menulis berkas dalam format Unicode}{31}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Bibliography}{33}{chapter.4}%
+\contentsline {section}{\numberline {1.9}Membaca Berkas: topic generator}{18}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Python3}{20}{section.1.10}%
+\contentsline {chapter}{\numberline {2}Koding Tingkat Medium}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Argumen CLI}{21}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Numpy}{22}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Matlplotlib}{23}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Pandas}{26}{section.2.4}%
+\contentsline {section}{\numberline {2.5}OpenCV}{26}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Kriptografi}{28}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Fungsi Hash}{28}{subsection.2.6.1}%
+\contentsline {chapter}{\numberline {3}Triks}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Server Web}{31}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Membaca Berkas Konfugurasi config.ini}{31}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Menulis berkas dalam format Unicode}{33}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Bibliography}{35}{chapter.4}%
 \contentsfinish 
