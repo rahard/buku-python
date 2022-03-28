@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.17)  28 MAR 2022 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.17)  28 MAR 2022 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,51 +949,53 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 ]
 Chapter 1.
 [7]
-<graphics/google-colab.jpg, id=141, 590.205pt x 255.20343pt>
+<graphics/google-colab.jpg, id=145, 590.205pt x 255.20343pt>
 File: graphics/google-colab.jpg Graphic file (type jpg)
 <use graphics/google-colab.jpg>
-Package pdftex.def Info: graphics/google-colab.jpg  used on input line 48.
+Package pdftex.def Info: graphics/google-colab.jpg  used on input line 61.
 (pdftex.def)             Requested size: 312.00565pt x 134.9106pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-8.
+[8 <./graphics/google-colab.jpg>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
+4.
+
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [8 <./graphics/google-colab.jpg>]
-Overfull \hbox (55.41028pt too wide) in paragraph at lines 72--72
+)
+Overfull \hbox (55.41028pt too wide) in paragraph at lines 88--88
 []\T1/cmtt/m/n/10 Type "help", "copyright", "credits" or "license" for more inf
 ormation.[] 
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
-80.
+96.
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-80.
+96.
 
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-80.
+96.
 
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-80.
+96.
 
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-80.
+96.
 
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1002,100 +1004,105 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 LaTeX Warning: Marginpar on page 9 moved.
 
 
-Overfull \hbox (55.41028pt too wide) in paragraph at lines 104--104
+Overfull \hbox (55.41028pt too wide) in paragraph at lines 102--102
+[]\T1/cmtt/m/n/10 Type "help", "copyright", "credits" or "license" for more inf
+ormation.[] 
+ []
+
+[9]
+Overfull \hbox (55.41028pt too wide) in paragraph at lines 129--129
 []\T1/cmtt/m/n/10 Type "help", "copyright", "credits" or "license" for more inf
 ormation.[] 
  []
 
 
-Overfull \hbox (3.95981pt too wide) in paragraph at lines 114--117
+Overfull \hbox (3.95981pt too wide) in paragraph at lines 139--142
 \T1/pplj/m/n/10 berikan spasi di de-pan per-in-tah ``print(i)''. Se-harus-nya k
 ita melakukan 
  []
 
 
-Overfull \hbox (55.41028pt too wide) in paragraph at lines 122--122
+Overfull \hbox (55.41028pt too wide) in paragraph at lines 147--147
 []\T1/cmtt/m/n/10 Type "help", "copyright", "credits" or "license" for more inf
 ormation.[] 
  []
 
-[9] [10]
-Overfull \hbox (5.39986pt too wide) in paragraph at lines 188--191
+[10]
+Overfull \hbox (5.39986pt too wide) in paragraph at lines 213--216
 []\T1/pplj/m/n/10 Pada contoh-contoh di atas hasil print dic-etak ke bawah. Bag
 aimana 
  []
 
-
-Overfull \hbox (3.82988pt too wide) in paragraph at lines 209--216
+[11]
+Overfull \hbox (3.82988pt too wide) in paragraph at lines 234--241
 \T1/pplj/m/it/10 Note-book\T1/pplj/m/n/10 . Yang menarik den-gan pen-dekatan in
 i adalah kita melakukan 
  []
 
-[11]
-Overfull \hbox (17.21985pt too wide) in paragraph at lines 223--227
+
+Overfull \hbox (17.21985pt too wide) in paragraph at lines 248--252
 []\T1/pplj/m/n/10 Variabel di dalam Python lang-sung da-pat di-gu-nakan tanpa m
 elakukan 
  []
 
 [12] [13]
-Overfull \hbox (8.28984pt too wide) in paragraph at lines 355--358
+Overfull \hbox (8.28984pt too wide) in paragraph at lines 380--383
 []\T1/pplj/m/n/10 Ada juga al-go-ritme yang lama per-hi-tun-gan-nya berband-ing
  kuadratis 
  []
 
-[14] [15] [16]
-Overfull \hbox (8.17181pt too wide) in paragraph at lines 533--533
+[14] [15] [16] [17]
+Overfull \hbox (8.17181pt too wide) in paragraph at lines 558--558
 []\T1/cmtt/m/n/10 kalimat = raw_input("Masukkan kalimat yang cukup panjang.\n")
 [] 
  []
 
-[17] [18]
+[18]
 
 LaTeX Warning: Marginpar on page 19 moved.
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 608--608
+Underfull \hbox (badness 2846) in paragraph at lines 633--633
 $[]$\T1/pplj/m/n/8 Kode ini ada di 
  []
 
 
 LaTeX Warning: Marginpar on page 19 moved.
 
-
-Overfull \hbox (8.17181pt too wide) in paragraph at lines 613--613
+[19]
+Overfull \hbox (8.17181pt too wide) in paragraph at lines 638--638
 []\T1/cmtt/m/n/10 # kata orang jangan di-slurp tapi dibaca perbaris seperti ini
 [] 
  []
 
-[19]
 
 LaTeX Warning: Marginpar on page 20 moved.
 
 
-Overfull \hbox (3.39989pt too wide) in paragraph at lines 658--664
+Overfull \hbox (3.39989pt too wide) in paragraph at lines 683--689
 \T1/pplj/m/n/10 ``.bashrc'' pada \T1/pplj/m/it/10 home di-rec-tory \T1/pplj/m/n
 /10 Anda (atau pada berkas ``.bash_aliases''). 
  []
 
-) [20]
+[20]) [21]
 \openout2 = `advanced.aux'.
 
- (./advanced.tex
-Chapter 2.
-[21
+ (./advanced.tex [22
 
 
 
 
 ]
+Chapter 2.
+[23]
 
 LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 39.
 
-[22] [23]
+[24] [25]
 
-LaTeX Warning: Marginpar on page 24 moved.
+LaTeX Warning: Marginpar on page 26 moved.
 
-<graphics/random-data.png, id=214, 462.528pt x 346.896pt>
+<graphics/random-data.png, id=228, 462.528pt x 346.896pt>
 File: graphics/random-data.png Graphic file (type png)
 <use graphics/random-data.png>
 Package pdftex.def Info: graphics/random-data.png  used on input line 191.
@@ -1128,7 +1135,7 @@ Overfull \hbox (212.87183pt too wide) in paragraph at lines 215--215
  y_point]), fmt='%.5f', delimiter=', ')[] 
  []
 
-[24]
+[26]
 Overfull \hbox (44.91284pt too wide) in paragraph at lines 228--228
 []\T1/cmtt/m/n/10 # do not forget to install scipy first: python3 -m pip instal
 l scipy[] 
@@ -1149,22 +1156,22 @@ p,yp)[]
 
 Underfull \vbox (badness 2837) has occurred while \output is active []
 
- [25 <./graphics/random-data.png>]
+ [27 <./graphics/random-data.png>]
 Overfull \hbox (0.39983pt too wide) in paragraph at lines 255--256
 []\T1/pplj/m/n/10 Jika Anda meng-gu-nakan Python3, maka gu-nakan per-in-tah ber
 ikut.  
  []
 
 
-LaTeX Warning: Marginpar on page 26 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
-(./opencv.tex [26]
+(./opencv.tex [28]
 Overfull \hbox (6.19981pt too wide) in paragraph at lines 28--33
 []\T1/pplj/m/n/10 Program akan menampilkan gam-bar se-belum dan sesu-dah dipros
 es, 
  []
 
-<graphics/br-pixel.png, id=231, 722.7pt x 569.12625pt>
+<graphics/br-pixel.png, id=244, 722.7pt x 569.12625pt>
 File: graphics/br-pixel.png Graphic file (type png)
 <use graphics/br-pixel.png>
 Package pdftex.def Info: graphics/br-pixel.png  used on input line 35.
@@ -1174,7 +1181,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<graphics/br-pixel-grey.png, id=232, 1445.4pt x 1138.2525pt>
+<graphics/br-pixel-grey.png, id=245, 1445.4pt x 1138.2525pt>
 File: graphics/br-pixel-grey.png Graphic file (type png)
 <use graphics/br-pixel-grey.png>
 Package pdftex.def Info: graphics/br-pixel-grey.png  used on input line 40.
@@ -1189,7 +1196,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
-) [27 <./graphics/br-pixel.png>]
+) [29 <./graphics/br-pixel.png>]
 Overfull \hbox (34.4154pt too wide) in paragraph at lines 311--311
 []\T1/cmtt/m/n/10 375a6c46228994656932f4aa17d9ae50f21da75a31ff17f8517c255c06cba
 809 -[] 
@@ -1201,7 +1208,7 @@ Overfull \hbox (81.65387pt too wide) in paragraph at lines 316--316
 809 pesan1.txt[] 
  []
 
-[28 <./graphics/br-pixel-grey.png (PNG copy)>]
+[30 <./graphics/br-pixel-grey.png (PNG copy)>]
 Overfull \hbox (81.65387pt too wide) in paragraph at lines 321--321
 []\T1/cmtt/m/n/10 5901bccc6a0556fac2b4a164ef831a7ed4ceddeb60c6ddde1162f5a40b9d2
 917 pesan2.txt[] 
@@ -1214,25 +1221,25 @@ $[]$\T1/pplj/m/n/8 https://rahard.wordpress.com/2018/03/10/berburu-
 
 )
 
-LaTeX Warning: Marginpar on page 29 moved.
+LaTeX Warning: Marginpar on page 31 moved.
 
-[29]
+[31]
 \openout2 = `tricks.aux'.
 
- (./tricks.tex [30
+ (./tricks.tex [32
 
 
 
 
 ]
 Chapter 3.
-[31]
+[33]
 Overfull \hbox (19.11987pt too wide) in paragraph at lines 57--60
 []\T1/pplj/m/n/10 Berikut ini adalah con-toh kode yang lazim dite-mui, yaitu me
 nanamkan 
  []
 
-[32]
+[34]
 Overfull \hbox (2.9231pt too wide) in paragraph at lines 134--134
 []\T1/cmtt/m/n/10 a_file = open("budi-unicode.txt", "r", encoding='utf-16-le')[
 ] 
@@ -1244,32 +1251,32 @@ Overfull \hbox (8.17181pt too wide) in paragraph at lines 135--135
 [] 
  []
 
-[33]
+[35]
 
-LaTeX Warning: Marginpar on page 34 moved.
+LaTeX Warning: Marginpar on page 36 moved.
 
-) [34] (./python.bbl
+) [36] (./python.bbl
 Chapter 4.
 pdfTeX warning (ext4): destination with the same identifier (name{cite.tensorfl
 owstarted}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 \bibitem{tensorflowstarted}
-                               ) [35
+                               ) [37
 
 
 
 ] (./python.aux (./pengantar.aux)
 (./pendahuluan.aux) (./advanced.aux) (./tricks.aux))
 Package rerunfilecheck Info: File `python.out' has not changed.
-(rerunfilecheck)             Checksum: 1AC0C7B27869F4F66B6ABD46D25BBF09;2757.
+(rerunfilecheck)             Checksum: 7C22D36705FE330A269EF37B0DBE12A9;3013.
  ) 
 Here is how much of TeX's memory you used:
- 15474 strings out of 480445
- 233873 string characters out of 5892391
+ 15483 strings out of 480445
+ 233951 string characters out of 5892391
  595497 words of memory out of 5000000
- 32258 multiletter control sequences out of 15000+600000
- 477319 words of font info for 119 fonts, out of 8000000 for 9000
+ 32260 multiletter control sequences out of 15000+600000
+ 480244 words of font info for 123 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  105i,12n,105p,468b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/budi/Library/texlive/2021basic/texmf-var/fonts/pk/ljfour/jknappen/ec
@@ -1281,12 +1288,13 @@ ts/cm/cmsy10.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/fp
 l/fplrc8a.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/fpl/f
 plrij8a.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/urw/helvetic/u
 hvr8a.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/urw/palatino/upl
-r8a.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/urw/palatino/uplri
-8a.pfb>
-Output written on python.pdf (35 pages, 2134153 bytes).
+b8a.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/urw/palatino/uplr8
+a.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/urw/palatino/uplri8a
+.pfb>
+Output written on python.pdf (37 pages, 2145369 bytes).
 PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
- 2765 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 426 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 2773 words of extra memory for PDF output out of 10000 (max. 10000000)
 

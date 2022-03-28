@@ -38,10 +38,23 @@ Anda harus memasangnya sendiri dengan mengunduh instalasinya di python.org.
 Atau, jika Python sudah terpasang di komputer Anda, maka Anda dapat melakukan
 {\em upgrade}.
 
+\section{Python Tanpa Instalasi - Google Colab}
+
 Ada cara lain menggunakan Python adalah dengan menggunakan layanan
-Google Colabs, yang mana kita diberikan akses ke sebuah mesin virtual
-yang sudah terpasang Python. Untuk pendekatan ini kita tidak perlu memasang
-Python lagi. Lebih mudah untuk belajar dan bahkan untuk membuat prototipe.
+{\bf Google Colabs}, yang mana kita diberikan akses ke sebuah mesin virtual
+yang sudah terpasang Python. Python berada di {\em cloud}.
+Untuk pendekatan ini kita tidak perlu memasang Python lagi. 
+Lebih mudah untuk belajar dan bahkan untuk membuat prototipe.
+
+Bagi saya, sebagai seorang dosen, pemanfaatan Google Colab ini
+sangat menarik karena siswa akan memiliki konfigurasi yang sama.
+Seringkali kalau mengajar di kelas dengan komputer yang berbeda-beda 
+(beda sistem operasi, beda versi Python, letak instalasi, beda versi
+dari {\em library}, dan seterusnya), waktu dan tenaga akan habis untuk 
+mengurusi hal-hal yang tidak jalan karena perbedaan tersebut.
+Bagi Anda yang mengajar Python, saya sarankan untuk menggunakan
+pendekatan dengan menggunakan Google Colab ini.
+
 Buku ini akan diperbaharui dengan cara menggunakan Google Colabs ini.
 
 \begin{figure}
@@ -60,10 +73,13 @@ untuk melakukan pemrograman dalam bahasa Python (yang dalam hal ini dapat
 kita pilih mau menggunakan versi 2 atau 3).
 
 \section{Memulai}
-Untuk memastikan Python berjalan, ketikkan "python" di terminal Linux Anda.
+Untuk memastikan Python berjalan, ketikkan ``python'' di terminal Linux Anda.
 (Bagi yang menggunakan Windows, hal ini dapat dilakukan dengan menggunakan
-CMD.exe.) Catatan, di sistem Linux, tanda ``dollar'' merupakan {\em prompt}
-dari {\em shell} Anda. Jangan diketikkan.
+CMD.exe.) Catatan, di sistem Linux, tanda ``dollar'' (atau persen)
+merupakan {\em prompt} dari {\em shell} Anda. Jangan diketikkan.
+Di beberapa sistem yang memiliki instalasi Python~2 dan Pyhton~3 secara
+bersamaan, ada kemungkinan Anda harus mengetikkan ``python3''
+(perhatikan ada angka ``3'')
 
 \begin{verbatim}
 $ python
@@ -78,17 +94,26 @@ versi 2.7.12\footnote{Pada awal penulisan buku ini, versi bahasa Python Yang
 stabil digunakan adalah versi 2. Saat ini versi~3 merupakan versi yang dianggap
 sebagai versi stabil. Untuk itu buku ini sedikit demi sedikit akan diperbaharui
 dengan menggunakan Python versi 3.}. 
+
+\begin{verbatim}
+% python3
+Python 3.9.10 (main, Jan 15 2022, 11:40:53) 
+[Clang 13.0.0 (clang-1300.0.29.3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+\end{verbatim}
+
 Sekarang kita dapat memulai pemrograman Python dengan menuliskan
 program ``hello world'' (yang merupakan standar bagi belajar pemrograman).
 Ketikkan ``print ...'' (dan seterusnya seperti di bawah ini).
 
 \begin{verbatim}
-print "Hello, world!"
+print("Hello, world!")
 Hello, world!
 \end{verbatim}
 
 Python akan menampilkan apapun yang ada di antara tanda petik tersebut. Hore!
-Anda berhasil membuat program Python yang pertama.
+Selamat! Anda berhasil membuat program Python yang pertama.
 
 Ada beberapa cara untuk menjalankan Python. Pada contoh di atas, kita
 menjalankannya secara langsung. Cara ini memang yang paling cepat, tetapi ada
