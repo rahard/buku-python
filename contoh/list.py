@@ -9,3 +9,7 @@ print("daftar[0] =", daftar[0])
 # menambahkan data ke list
 daftar = daftar + [7, 9]
 print(daftar)
+
+# mengurutkan
+urut = sorted(daftar)
+print("terurut:", urut)

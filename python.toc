@@ -9,7 +9,7 @@
 \contentsline {section}{\numberline {1.8}Input}{17}{section.1.8}%
 \contentsline {section}{\numberline {1.9}Pemrosesan Teks}{18}{section.1.9}%
 \contentsline {section}{\numberline {1.10}Membaca Berkas: topic generator}{19}{section.1.10}%
-\contentsline {section}{\numberline {1.11}Python3}{20}{section.1.11}%
+\contentsline {section}{\numberline {1.11}Python3}{21}{section.1.11}%
 \contentsline {chapter}{\numberline {2}Koding Tingkat Medium}{23}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Argumen CLI}{23}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Numpy}{24}{section.2.2}%

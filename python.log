@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.17)  28 MAR 2022 17:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.17)  4 APR 2022 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -919,16 +919,21 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 16.19989pt on input line 38.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 32.39978pt on input line 38.
+
+Overfull \hbox (29.85883pt too wide) in paragraph at lines 38--38
+[]\T1/phv/m/n/36/200ls PEMROGRAMAN PYTHON[]  
+ []
+
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 12.59991pt on input line 38.
- [1
+[1
 
 
-{/usr/local/texlive/2021basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/usr/local/texlive/2021basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
 
 
-]
-(./python.toc)
+] (./python.toc)
 \tf@toc=\write5
 \openout5 = `python.toc'.
 
@@ -1052,39 +1057,40 @@ Overfull \hbox (8.28984pt too wide) in paragraph at lines 380--383
  []
 
 [14] [15] [16] [17]
-Overfull \hbox (8.17181pt too wide) in paragraph at lines 558--558
+Overfull \hbox (8.17181pt too wide) in paragraph at lines 579--579
 []\T1/cmtt/m/n/10 kalimat = raw_input("Masukkan kalimat yang cukup panjang.\n")
 [] 
  []
 
-[18]
+[18] [19]
 
-LaTeX Warning: Marginpar on page 19 moved.
+LaTeX Warning: Marginpar on page 20 moved.
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 633--633
+Underfull \hbox (badness 2846) in paragraph at lines 654--654
 $[]$\T1/pplj/m/n/8 Kode ini ada di 
- []
-
-
-LaTeX Warning: Marginpar on page 19 moved.
-
-[19]
-Overfull \hbox (8.17181pt too wide) in paragraph at lines 638--638
-[]\T1/cmtt/m/n/10 # kata orang jangan di-slurp tapi dibaca perbaris seperti ini
-[] 
  []
 
 
 LaTeX Warning: Marginpar on page 20 moved.
 
 
-Overfull \hbox (3.39989pt too wide) in paragraph at lines 683--689
+Overfull \hbox (8.17181pt too wide) in paragraph at lines 659--659
+[]\T1/cmtt/m/n/10 # kata orang jangan di-slurp tapi dibaca perbaris seperti ini
+[] 
+ []
+
+[20]
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+
+Overfull \hbox (3.39989pt too wide) in paragraph at lines 704--710
 \T1/pplj/m/n/10 ``.bashrc'' pada \T1/pplj/m/it/10 home di-rec-tory \T1/pplj/m/n
 /10 Anda (atau pada berkas ``.bash_aliases''). 
  []
 
-[20]) [21]
+) [21]
 \openout2 = `advanced.aux'.
 
  (./advanced.tex [22
@@ -1274,7 +1280,7 @@ Package rerunfilecheck Info: File `python.out' has not changed.
 Here is how much of TeX's memory you used:
  15483 strings out of 480445
  233951 string characters out of 5892391
- 598497 words of memory out of 5000000
+ 598532 words of memory out of 5000000
  32260 multiletter control sequences out of 15000+600000
  480244 words of font info for 123 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
@@ -1291,7 +1297,7 @@ hvr8a.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/urw/palatino/upl
 b8a.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/urw/palatino/uplr8
 a.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/urw/palatino/uplri8a
 .pfb>
-Output written on python.pdf (37 pages, 2145840 bytes).
+Output written on python.pdf (37 pages, 2146794 bytes).
 PDF statistics:
  426 PDF objects out of 1000 (max. 8388607)
  278 compressed objects within 3 object streams

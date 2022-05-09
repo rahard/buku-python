@@ -483,13 +483,34 @@ daftar = daftar + [7, 9]
 print(daftar)
 \end{verbatim}
 
+Keluaran dari kode di atas adalah sebagai berikut.
+Perhatikan baris terakhir adalah karena penambahan dua elemen baru
+di list.
+\begin{verbatim}
+[7, 1, 5, 3, 2, 4, 6, 8, 3, 5]
+list memiliki 10 elemen
+daftar[0] = 7
+[7, 1, 5, 3, 2, 4, 6, 8, 3, 5, 7, 9]
+\end{verbatim}
+
 Ada banyak hal yang dapat kita lakukan dengan menggunakan struktur data
 {\em list} ini. Kita dapat menghapus ({\em remove}) elemen di daftar tersebut.
 Kita juga dapat memotong ({\em cut}) elemen yang berada di tengah-tengah.
 Selain itu juga kita dapat menghitung berapa kemunculan sebuah nilai
 tertentu pada {\em list} tersebut.
 
-    
+Untuk mengurutkan list dapat digunakan perintah {\tt sorted}.
+Jika kita ingin menggantikannya (in place), maka dapat kita gunakan
+perintah {\tt list.sort()}. (Catatan, dengan menggunakan perintah yang
+terakhir tersebut, isi variable yang lama akan tergantikan dengan
+yang sudah terurut.)
+\begin{verbatim}
+urut = sorted(daftar)
+print(urut)
+\end{verbatim}
+
+List juga dapat digunakan untuk tipe data lain, bukan hanya angka.
+
 \section{Input}
 Salah satu cara untuk mendapatkan masukan (input) dari pengguna secara
 interaktif adalah dengan menggunakan fungsi "input" (untuk Python 3.*)
