@@ -14,13 +14,13 @@
 \contentsline {section}{\numberline {2.1}Argumen CLI}{23}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Numpy}{24}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Matlplotlib}{25}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Pandas}{28}{section.2.4}%
-\contentsline {section}{\numberline {2.5}OpenCV}{28}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Kriptografi}{30}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Fungsi Hash}{30}{subsection.2.6.1}%
-\contentsline {chapter}{\numberline {3}Triks}{33}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Server Web}{33}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Membaca Berkas Konfugurasi config.ini}{33}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Menulis berkas dalam format Unicode}{35}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Bibliography}{37}{chapter.4}%
+\contentsline {section}{\numberline {2.4}Pandas}{29}{section.2.4}%
+\contentsline {section}{\numberline {2.5}OpenCV}{30}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Kriptografi}{32}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Fungsi Hash}{32}{subsection.2.6.1}%
+\contentsline {chapter}{\numberline {3}Triks}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Server Web}{35}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Membaca Berkas Konfugurasi config.ini}{35}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Menulis berkas dalam format Unicode}{37}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Bibliography}{39}{chapter.4}%
 \contentsfinish 

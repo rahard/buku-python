@@ -239,6 +239,66 @@ print("p-value",p_value)
 Jika diperlukan, data tersebut dapat ditampilkan ulang dan garis (lurus)
 dapat digambarkan pula.
 
+
+Berikut ini adalah contoh lain untuk membuat dataset, menggunakan fungsi,
+dan juga menampilkannya dalam grafik (scattered plot).
+Dalam contoh ini kita akan membuat sebuah dataset yang terdiri dari 3~kelas.
+Masing-masing kelas memiliki titik pusat (centroid) yang berbeda.
+Semua data dimasukkan ke dalam satu {\em list} yang sama.
+Pura-puranya kita tidak tahu bahwa kita memiliki tiga kelas.
+(Nanti ini akan kita proses secara statistik untuk menentukan kelas tersebut.)
+
+\begin{verbatim}
+   import numpy as np
+   import matplotlib.pyplot as plt
+   
+   # buat function dulu
+   def buat_list(cx,cy):
+      x_point.append([cx])
+      y_point.append([cy])
+      for i in range(jumlah_data):
+         x = cx + np.random.normal(0.0,0.7)
+         y = cy + np.random.normal(0.0,0.7)
+         x_point.append([x])
+         y_point.append([y])
+   
+   jumlah_data=100
+   x_point = []
+   y_point = []
+   # cluster pertama, centroid di (10, 4,5)
+   buat_list(10.0, 4.5)
+   # cluster kedua, centroid di (3.5, 2.5)
+   buat_list(3.5, 2.5)
+   # cluster ketiga, centroid di (4.5, 8.5)
+   buat_list(4.5, 8.5)
+   # simpan dalam bentuk CSV
+   np.savetxt("cluster.csv", np.column_stack([x_point, y_point]), fmt='%.5f', delimiter=', ')
+   
+   plt.plot(x_point,y_point, 'x')
+   plt.show()
+\end{verbatim}
+
+Jika kode di atas kita jalankan, maka hasilnya adalah sebuah tampilan
+seperti yang ditunjukkan pada gambar~\ref{fig:clustercreate}.
+Pada gambar ini, semua data ditampilkan seperti satu kelas saja dan
+semua ditampilkan menggunakan simbol $x$. Padahal dengan mudahnya kita
+dapat melihat bahwa data tersebut terdiri dari tiga kelas.
+
+\begin{figure}[ht]
+   \fbox{\includegraphics[width=1.0\linewidth]{graphics/cluster-create.jpg}}
+   \caption{Tiga cluster data}
+   \label{fig:clustercreate}
+\end{figure}
+
+Kode di atas juga menunjukkan cara menggunakan fungsi di Python dan bagaimana
+memberikan parameter kepada fungsi tersebut.
+Ini adalah contoh, {\em pass by value}, yang mana nilai dari centroid
+diberikan ke fungsi dan akan mengisi variabel $cx$ dan $cy$ di dalam fungsi
+tersebut.
+Nanti akan dibahas juga bagaimana melakukan {\em pass by reference}.
+Juga dalam contoh ini, beberapa variabel masih menggunakan variabel global,
+yang mana ini adalah contoh yang kurang baik.
+
 \section{Pandas}
 Pandas adalah library untuk data processing. Dia banyak digunakan untuk
 berbagai aplikasi, seperti misalnya di {\em Artificial Intelligence}
