@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  9 MAY 2022 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  9 MAY 2022 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1452,7 +1452,7 @@ ra/fvmr8a.pfb></opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/fonts/type
 t/fonts/type1/urw/palatino/uplb8a.pfb></opt/homebrew/Cellar/texlive/58837_1/sha
 re/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></opt/homebrew/Cellar/texlive
 /58837_1/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on python.pdf (39 pages, 2353988 bytes).
+Output written on python.pdf (39 pages, 2353989 bytes).
 PDF statistics:
  351 PDF objects out of 1000 (max. 8388607)
  285 compressed objects within 3 object streams
