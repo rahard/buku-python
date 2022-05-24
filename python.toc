@@ -15,12 +15,12 @@
 \contentsline {section}{\numberline {2.2}Numpy}{24}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Matlplotlib}{25}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Pandas}{29}{section.2.4}%
-\contentsline {section}{\numberline {2.5}OpenCV}{30}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Kriptografi}{32}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Fungsi Hash}{32}{subsection.2.6.1}%
-\contentsline {chapter}{\numberline {3}Triks}{35}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Server Web}{35}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Membaca Berkas Konfugurasi config.ini}{35}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Menulis berkas dalam format Unicode}{37}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Bibliography}{39}{chapter.4}%
+\contentsline {section}{\numberline {2.5}OpenCV}{32}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Kriptografi}{33}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Fungsi Hash}{34}{subsection.2.6.1}%
+\contentsline {chapter}{\numberline {3}Triks}{37}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Server Web}{37}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Membaca Berkas Konfugurasi config.ini}{37}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Menulis berkas dalam format Unicode}{39}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Bibliography}{41}{chapter.4}%
 \contentsfinish 

@@ -307,11 +307,6 @@ banyak data dalam bentuk tabel.
 Bayangkan ini seperti menggunakan {\em spreadsheet} (seperti Excel).
 
 Langkah pertama yang dilakukan adalah memasang Pandas.
-
-\begin{verbatim}
-$ sudo pip install pandas
-\end{verbatim}
-
 Jika Anda menggunakan Python3, maka gunakan perintah berikut.
 \begin{verbatim}
 $ sudo python3 -m pip install pandas
@@ -345,6 +340,92 @@ yang seperti tabel dalam {\em spreadsheet}.
 6    11.0
 dtype: float64
 \end{verbatim}
+
+Pandas dapat membaca data dalam bentuk CSV.
+Berikut ini adalah contoh kode yang membaca data dari berkas 'cluster.csv'
+(yang sebelumnya pernah kita buat).
+
+\begin{verbatim}
+import pandas as pd
+df = pd.read_csv('cluster.csv', header=None)
+# tambahkan label di kolomnya (tidak harus)
+df.columns = ['x', 'y']
+print(df)
+\end{verbatim}
+
+
+Mari kita lanjutkan contoh penggunaan Pandas untuk melakukan analisis
+statistik, yaitu {\em clustering} dengan menggunakan {\em k-means}.
+(Mengenai statistik ini ada dibahas di buku lain.
+Akan saya berikan referensinya di versi berikutnya.)
+Pada contoh sebelumnya kita membaca berkas cluster.csv yang di dalamnya
+berisi data yang terkumpul dalam tiga {\em cluster}.
+Kita ulangi lagi kodenya, akan tetapi sekarang kita tambahkan visualisasi
+(scattered graph) yang dapat dilakukan dengan menggunakan Pandasa.
+(Catatan: pada bagian akhir dibutuhkan perintah plt.show() agar grafik
+dapat ditampilkan.)
+
+\begin{verbatim}
+import pandas as pd
+import matplotlib.pyplot as plt
+   
+# baca data dahulu
+df = pd.read_csv('cluster.csv', header=None)
+df.columns = ['x', 'y']
+df.plot.scatter(x = 'x', y='y', c='red')
+plt.show()
+\end{verbatim}
+
+Hasil dari kode di atas adalah tampilan grafik yang mirip dengan
+yang sudah kita lakukan dengan menggunakan Matplotlib.
+(Lihat gambar~\ref{fig:3cluster}.)
+
+\begin{figure}[ht]
+   \fbox{\includegraphics[width=1.0\linewidth]{graphics/3cluster.jpg}}
+   \caption{Tiga cluster data dengan Pandas}
+   \label{fig:3cluster}
+\end{figure}
+
+Mari kita lanjutkan dengan melakukan {\em clustering}.
+Hal ini dapat kita lakukan dengan menggunakan pustaka ({\em library})
+lain, yaitu {\em Sklearn}.
+Tambahkan kode berikut ini ke kode sebelumnya.
+
+\begin{verbatim}
+from sklearn.cluster import KMeans
+kmeans = KMeans(n_clusters=3).fit(df)
+centroids = kmeans.cluster_centers_
+print(centroids)
+# tampilkan secara visual
+plt.scatter(df['x'],df['y'], c=kmeans.labels_.astype(float),s=50,alpha=0.5)
+plt.scatter(centroids[:, 0], centroids[:, 1], c='red')
+plt.show()
+\end{verbatim}
+
+Hasil dari kode di atas adalah tampilan tiga {\em cluster}
+beserta {\em centroidnya}.
+(Lihat gambar~\ref{fig:3cluster-kmeans}.)
+Anda dapat mengubah-ubah jumlah {\em cluster}-nya dengan mengubah
+variabel $n\_clusters$. Misal, Anda dapat menggantikan angka 3 menjadi 4
+untuk membuatnya menjadi 4 {\em cluster}.
+Pemilihan jumlah kluster yang paling optimal dapat dilakukan, tetapi
+ini akan menjadi pembahasan yang terpisah.
+Perlu diingat juga bahwa algoritma {\em k-means} yang kita gunakan ini
+akan menghasilkan urutan penomoran kluster yang berbeda
+setiap kita menjalankan kode ini.
+
+\begin{figure}[ht]
+   \fbox{\includegraphics[width=1.0\linewidth]{graphics/3cluster-kmeans.jpg}}
+   \caption{Tiga cluster dengan k-means}
+   \label{fig:3cluster-kmeans}
+\end{figure}
+
+Demikianlah sedikit contoh-contoh dari penggunaan pustaka Pandas.
+Pada prinsipnya jika ada masalah yang dalam pemikiran kita bentuknya
+adalah tabel (seperti {\em spreadsheet}), maka solusi dapat dilakukan
+dengan menggunakan Pandas.
+
+
 
 
 \input{opencv}

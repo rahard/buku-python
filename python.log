@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  9 MAY 2022 11:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  24 MAY 2022 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1314,21 +1314,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--291
  []
 
 [28.28]
-Overfull \hbox (0.39983pt too wide) in paragraph at lines 315--316
-[]\T1/pplj/m/n/10 Jika Anda meng-gu-nakan Python3, maka gu-nakan per-in-tah ber
-ikut.  
- []
-
 
 LaTeX Warning: Marginpar on page 29 moved.
 
-[29.29 <./graphics/cluster-create.jpg>] (./opencv.tex
+[29.29 <./graphics/cluster-create.jpg>]
+<graphics/3cluster.jpg, id=251, 1421.31pt x 1228.59pt>
+File: graphics/3cluster.jpg Graphic file (type jpg)
+<use graphics/3cluster.jpg>
+Package pdftex.def Info: graphics/3cluster.jpg  used on input line 384.
+(pdftex.def)             Requested size: 311.99518pt x 269.69073pt.
+
+Overfull \hbox (6.79517pt too wide) in paragraph at lines 384--387
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--387
+
+ []
+
+[30.30]
+Overfull \hbox (71.77762pt too wide) in paragraph at lines 400--400
+[]\T1/fvm/m/n/10 plt.scatter(df['x'],df['y'], c=kmeans.labels_.astype(float),s=
+50,alpha=0.5)[] 
+ []
+
+[31.31 <./graphics/3cluster.jpg>]
+<graphics/3cluster-kmeans.jpg, id=262, 1421.31pt x 1228.59pt>
+File: graphics/3cluster-kmeans.jpg Graphic file (type jpg)
+<use graphics/3cluster-kmeans.jpg>
+Package pdftex.def Info: graphics/3cluster-kmeans.jpg  used on input line 418.
+(pdftex.def)             Requested size: 311.99518pt x 269.69073pt.
+
+Overfull \hbox (6.79517pt too wide) in paragraph at lines 418--421
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--421
+
+ []
+
+(./opencv.tex [32.32 <./graphics/3cluster-kmeans.jpg>]
 Overfull \hbox (6.19981pt too wide) in paragraph at lines 28--33
 []\T1/pplj/m/n/10 Program akan menampilkan gam-bar se-belum dan sesu-dah dipros
 es, 
  []
 
-<graphics/br-pixel.png, id=250, 722.7pt x 569.12625pt>
+<graphics/br-pixel.png, id=267, 722.7pt x 569.12625pt>
 File: graphics/br-pixel.png Graphic file (type png)
 <use graphics/br-pixel.png>
 Package pdftex.def Info: graphics/br-pixel.png  used on input line 35.
@@ -1338,7 +1371,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<graphics/br-pixel-grey.png, id=251, 1445.4pt x 1138.2525pt>
+<graphics/br-pixel-grey.png, id=268, 1445.4pt x 1138.2525pt>
 File: graphics/br-pixel-grey.png Graphic file (type png)
 <use graphics/br-pixel-grey.png>
 Package pdftex.def Info: graphics/br-pixel-grey.png  used on input line 40.
@@ -1353,61 +1386,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
-[30.30] [31.31 <./graphics/br-pixel.png> <./graphics/br-pixel-grey.png (PNG cop
-y)>])
-Overfull \hbox (25.7243pt too wide) in paragraph at lines 371--371
+) [33.33 <./graphics/br-pixel.png>]
+Overfull \hbox (25.7243pt too wide) in paragraph at lines 452--452
 []\T1/fvm/m/n/10 375a6c46228994656932f4aa17d9ae50f21da75a31ff17f8517c255c06cba8
 09 -[] 
  []
 
 
-Overfull \hbox (71.77762pt too wide) in paragraph at lines 376--376
+Overfull \hbox (71.77762pt too wide) in paragraph at lines 457--457
 []\T1/fvm/m/n/10 375a6c46228994656932f4aa17d9ae50f21da75a31ff17f8517c255c06cba8
 09 pesan1.txt[] 
  []
 
 
-Overfull \hbox (71.77762pt too wide) in paragraph at lines 381--381
+Overfull \hbox (71.77762pt too wide) in paragraph at lines 462--462
 []\T1/fvm/m/n/10 5901bccc6a0556fac2b4a164ef831a7ed4ceddeb60c6ddde1162f5a40b9d29
 17 pesan2.txt[] 
  []
 
-
-Overfull \hbox (52.74152pt too wide) in paragraph at lines 397--397
+[34.34 <./graphics/br-pixel-grey.png (PNG copy)>]
+Overfull \hbox (52.74152pt too wide) in paragraph at lines 478--478
 $[]$\T1/pplj/m/n/8 https://rahard.wordpress.com/2018/03/10/berburu- 
  []
 
-) [32.32]
+)
 
-LaTeX Warning: Marginpar on page 33 moved.
+LaTeX Warning: Marginpar on page 35 moved.
 
-[33.33]
+[35.35]
 \openout2 = `tricks.aux'.
 
- (./tricks.tex [34.34
+ (./tricks.tex [36.36
 
 
 
 
 ]
 Chapter 3.
-[35.35]
+[37.37]
 Overfull \hbox (19.11987pt too wide) in paragraph at lines 57--60
 []\T1/pplj/m/n/10 Berikut ini adalah con-toh kode yang lazim dite-mui, yaitu me
 nanamkan 
  []
 
-[36.36]
+[38.38]
 Overfull \hbox (0.13913pt too wide) in paragraph at lines 135--135
 []\T1/fvm/m/n/10 #a_file = open("budi-unicode.txt", "r", encoding='utf-16-be')[
 ] 
  []
 
-[37.37]
+[39.39]
 
-LaTeX Warning: Marginpar on page 38 moved.
+LaTeX Warning: Marginpar on page 40 moved.
 
-) [38.38] (./python.bbl
+) [40.40] (./python.bbl
 Chapter 4.
 pdfTeX warning (ext4): destination with the same identifier (name{cite.tensorfl
 owstarted}) has been already used, duplicate ignored
@@ -1422,7 +1454,7 @@ File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 (/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/stringenc/se
 -utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [39.39
+) [41.41
 
 
 
@@ -1432,10 +1464,10 @@ Package rerunfilecheck Info: File `python.out' has not changed.
 (rerunfilecheck)             Checksum: 7C22D36705FE330A269EF37B0DBE12A9;3013.
  ) 
 Here is how much of TeX's memory you used:
- 16191 strings out of 478994
- 250429 string characters out of 5848625
- 650515 words of memory out of 5000000
- 33147 multiletter control sequences out of 15000+600000
+ 16209 strings out of 478994
+ 250802 string characters out of 5848625
+ 650697 words of memory out of 5000000
+ 33161 multiletter control sequences out of 15000+600000
  480864 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,12n,105p,843b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1452,10 +1484,10 @@ ra/fvmr8a.pfb></opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/fonts/type
 t/fonts/type1/urw/palatino/uplb8a.pfb></opt/homebrew/Cellar/texlive/58837_1/sha
 re/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></opt/homebrew/Cellar/texlive
 /58837_1/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on python.pdf (39 pages, 2353989 bytes).
+Output written on python.pdf (41 pages, 2728451 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 285 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
- 2782 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 2792 words of extra memory for PDF output out of 10000 (max. 10000000)
 
