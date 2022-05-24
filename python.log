@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  24 MAY 2022 10:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  24 MAY 2022 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,58 +1081,58 @@ Chapter 1.
 <graphics/google-colab.jpg, id=145, 590.205pt x 255.20343pt>
 File: graphics/google-colab.jpg Graphic file (type jpg)
 <use graphics/google-colab.jpg>
-Package pdftex.def Info: graphics/google-colab.jpg  used on input line 61.
+Package pdftex.def Info: graphics/google-colab.jpg  used on input line 71.
 (pdftex.def)             Requested size: 312.00565pt x 134.9106pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
-[8.8 <./graphics/google-colab.jpg>]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 84
+[8.8]
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 94
 .
 
 (/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 84.
+(Font)              scaled to size 8.50006pt on input line 94.
 
-Overfull \hbox (46.19244pt too wide) in paragraph at lines 88--88
+Overfull \hbox (46.19244pt too wide) in paragraph at lines 98--98
 []\T1/fvm/m/n/10 Type "help", "copyright", "credits" or "license" for more info
 rmation.[] 
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
-96.
+106.
 
 (/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/ot1pplx
 .fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-96.
+106.
 
 (/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/omlzplm
 .fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-96.
+106.
 
 (/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/omszplm
 .fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-96.
+106.
 
 (/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/omxzplm
 .fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-96.
+106.
 
 (/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/ot1zplm
 .fd
@@ -1142,65 +1142,65 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 LaTeX Warning: Marginpar on page 9 moved.
 
 
-Overfull \hbox (46.19244pt too wide) in paragraph at lines 102--102
+Overfull \hbox (46.19244pt too wide) in paragraph at lines 112--112
 []\T1/fvm/m/n/10 Type "help", "copyright", "credits" or "license" for more info
 rmation.[] 
  []
 
-[9.9]
-Overfull \hbox (46.19244pt too wide) in paragraph at lines 129--129
+[9.9 <./graphics/google-colab.jpg>]
+Overfull \hbox (46.19244pt too wide) in paragraph at lines 139--139
 []\T1/fvm/m/n/10 Type "help", "copyright", "credits" or "license" for more info
 rmation.[] 
  []
 
 
-Overfull \hbox (3.95981pt too wide) in paragraph at lines 139--142
+Overfull \hbox (3.95981pt too wide) in paragraph at lines 149--152
 \T1/pplj/m/n/10 berikan spasi di de-pan per-in-tah ``print(i)''. Se-harus-nya k
 ita melakukan 
  []
 
 
-Overfull \hbox (46.19244pt too wide) in paragraph at lines 147--147
+Overfull \hbox (46.19244pt too wide) in paragraph at lines 157--157
 []\T1/fvm/m/n/10 Type "help", "copyright", "credits" or "license" for more info
 rmation.[] 
  []
 
 [10.10]
-Overfull \hbox (5.39986pt too wide) in paragraph at lines 213--216
+Overfull \hbox (5.39986pt too wide) in paragraph at lines 223--226
 []\T1/pplj/m/n/10 Pada contoh-contoh di atas hasil print dic-etak ke bawah. Bag
 aimana 
  []
 
 [11.11]
-Overfull \hbox (3.82988pt too wide) in paragraph at lines 234--241
+Overfull \hbox (3.82988pt too wide) in paragraph at lines 244--251
 \T1/pplj/m/it/10 Note-book\T1/pplj/m/n/10 . Yang menarik den-gan pen-dekatan in
 i adalah kita melakukan 
  []
 
 
-Overfull \hbox (17.21985pt too wide) in paragraph at lines 248--252
+Overfull \hbox (17.21985pt too wide) in paragraph at lines 258--262
 []\T1/pplj/m/n/10 Variabel di dalam Python lang-sung da-pat di-gu-nakan tanpa m
 elakukan 
  []
 
-[12.12] [13.13]
-Overfull \hbox (8.28984pt too wide) in paragraph at lines 380--383
+[12.12] [13.13] [14.14]
+Overfull \hbox (8.28984pt too wide) in paragraph at lines 390--393
 []\T1/pplj/m/n/10 Ada juga al-go-ritme yang lama per-hi-tun-gan-nya berband-ing
  kuadratis 
  []
 
-[14.14] [15.15] [16.16] [17.17]
-Overfull \hbox (0.13913pt too wide) in paragraph at lines 579--579
+[15.15] [16.16] [17.17] [18.18]
+Overfull \hbox (0.13913pt too wide) in paragraph at lines 589--589
 []\T1/fvm/m/n/10 kalimat = raw_input("Masukkan kalimat yang cukup panjang.\n")[
 ] 
  []
 
-[18.18] [19.19]
+[19.19]
 
 LaTeX Warning: Marginpar on page 20 moved.
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 654--654
+Underfull \hbox (badness 2846) in paragraph at lines 664--664
 $[]$\T1/pplj/m/n/8 Kode ini ada di 
  []
 
@@ -1208,7 +1208,7 @@ $[]$\T1/pplj/m/n/8 Kode ini ada di
 LaTeX Warning: Marginpar on page 20 moved.
 
 
-Overfull \hbox (0.13913pt too wide) in paragraph at lines 659--659
+Overfull \hbox (0.13913pt too wide) in paragraph at lines 669--669
 []\T1/fvm/m/n/10 # kata orang jangan di-slurp tapi dibaca perbaris seperti ini[
 ] 
  []
@@ -1218,7 +1218,7 @@ Overfull \hbox (0.13913pt too wide) in paragraph at lines 659--659
 LaTeX Warning: Marginpar on page 21 moved.
 
 
-Overfull \hbox (3.39989pt too wide) in paragraph at lines 704--710
+Overfull \hbox (3.39989pt too wide) in paragraph at lines 714--720
 \T1/pplj/m/n/10 ``.bashrc'' pada \T1/pplj/m/it/10 home di-rec-tory \T1/pplj/m/n
 /10 Anda (atau pada berkas ``.bash_aliases''). 
  []
@@ -1470,7 +1470,7 @@ Here is how much of TeX's memory you used:
  33161 multiletter control sequences out of 15000+600000
  480864 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,12n,105p,843b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 105i,11n,105p,843b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/fonts/enc/dvips/base/8
 r.enc}</opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/
@@ -1484,7 +1484,7 @@ ra/fvmr8a.pfb></opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/fonts/type
 t/fonts/type1/urw/palatino/uplb8a.pfb></opt/homebrew/Cellar/texlive/58837_1/sha
 re/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></opt/homebrew/Cellar/texlive
 /58837_1/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on python.pdf (41 pages, 2728451 bytes).
+Output written on python.pdf (41 pages, 2728547 bytes).
 PDF statistics:
  363 PDF objects out of 1000 (max. 8388607)
  293 compressed objects within 3 object streams

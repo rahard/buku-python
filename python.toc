@@ -1,5 +1,5 @@
 \contentsline {chapter}{\numberline {1}Pendahuluan}{7}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Instalasi}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Instalasi}{8}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Python Tanpa Instalasi - Google Colab}{8}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Memulai}{9}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Shell atau IDE}{12}{section.1.4}%
