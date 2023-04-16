@@ -6,8 +6,8 @@
 \contentsline {section}{\numberline {1.5}Bahasa Python}{12}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Kompleksitas}{14}{section.1.6}%
 \contentsline {section}{\numberline {1.7}List}{16}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Input}{17}{section.1.8}%
-\contentsline {section}{\numberline {1.9}Pemrosesan Teks}{18}{section.1.9}%
+\contentsline {section}{\numberline {1.8}Input}{18}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Pemrosesan Teks}{19}{section.1.9}%
 \contentsline {section}{\numberline {1.10}Membaca Berkas: topic generator}{19}{section.1.10}%
 \contentsline {section}{\numberline {1.11}Python3}{21}{section.1.11}%
 \contentsline {chapter}{\numberline {2}Koding Tingkat Medium}{23}{chapter.2}%

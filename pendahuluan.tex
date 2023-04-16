@@ -488,6 +488,9 @@ print("list memiliki", len(daftar), "elemen")
 # akses elemen yang pertama (dengan indeks 0)
 print("daftar[0] =", daftar[0])
 
+# akses ke elemen terakhir
+print("terakhir =", daftar[-1])
+
 # menambahkan data ke list
 daftar = daftar + [7, 9]
 print(daftar)
@@ -504,10 +507,26 @@ daftar[0] = 7
 \end{verbatim}
 
 Ada banyak hal yang dapat kita lakukan dengan menggunakan struktur data
-{\em list} ini. Kita dapat menghapus ({\em remove}) elemen di daftar tersebut.
+{\em list} ini. Kita dapat menghapus ({\em delete},{\em remove}) 
+elemen di daftar tersebut.
 Kita juga dapat memotong ({\em cut}) elemen yang berada di tengah-tengah.
 Selain itu juga kita dapat menghitung berapa kemunculan sebuah nilai
 tertentu pada {\em list} tersebut.
+
+\begin{verbatim}
+del daftar[3]
+print(daftar)
+[7, 1, 5, 2, 4, 6, 8, 3, 5, 7, 9]
+\end{verbatim}
+
+Untuk menghapus elemen terakhir kita juga dapat menggunakan cara lain,
+yaitu dengan menggunakan perintah pop.
+
+\begin{verbatim}
+daftar.pop()
+print(daftar)
+[7, 1, 5, 2, 4, 6, 8, 3, 5, 7]
+\end{verbatim}
 
 Untuk mengurutkan list dapat digunakan perintah {\tt sorted}.
 Jika kita ingin menggantikannya (in place), maka dapat kita gunakan
