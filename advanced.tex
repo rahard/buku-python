@@ -54,7 +54,7 @@ exit(1)
 \end{verbatim}
 
 \section{Numpy}
-Numpy adalah paket python untuk berbagai aplikasi {\em scientific}.
+{\em Numpy} adalah paket python untuk berbagai aplikasi {\em scientific}.
 Di dalamnya ada {\em N-dimensional object}, {\em linear algebra},
 {\em Fourier transform}, dan seterusnya.
 Sebagai contoh, jika kita ingin membangkitkan bilangan random dengan 
@@ -142,6 +142,25 @@ modul {\em Numpy}. Secara umum, jika ada pemrosesan data yang multi dimensional
 dan seringkali terkait dengan operasi matematika, maka Numpy
 sangat bermanfaat.
 
+Mari kita gunakan Numpy lagi untuk beberapa contoh.
+Berikut ini contoh untuk menghasilkan 20 bilangan bulat secara acak
+dengan rentang dari 50 sampai dengan 99 (misal ini adalah berat badan).
+
+\begin{verbatim}
+import numpy as np
+berat = np.random.randint(low=50, high=100, size=20)
+print(berat)
+
+[98 84 72 57 61 98 60 96 75 86 95 81 62 77 67 52 73 96 95 71]
+\end{verbatim}
+
+Data di atas dapat disimpan dalam berkas untuk digunakan dalam
+proses lain.
+\begin{verbatim}
+np.savetxt("berat.csv", berat, fmt='%i')
+\end{verbatim}
+
+
 \section{Matlplotlib}
 Salah satu aplikasi yang cukup sering dibutuhkan ketika kita membuat program 
 untuk keperluan penelitian adalah membuat grafik (plot). 
@@ -155,6 +174,40 @@ dengan menggunakan perintah apt-get.
 $ sudo apt-get install python-tk
 $ sudo pip install matplotlib
 \end{verbatim}
+
+Berikut ini adalah contoh sederhana penggunaan Numpy dan Matlplotlib.
+Pada contoh ini kita akan membuat data random sebanyak 200 buat
+dengan distribusi Normal. Data tersebut memiliki rentang 50 sampai dengan 100.
+(Nantinya data ini akan kita plot dengan menggunakan histogram atau bar chart.)
+
+\begin{verbatim}
+import numpy as np
+import matplotlib.pyplot as plt
+
+berat = np.random.normal(loc=75, scale=10, size=200)
+
+plt.hist(berat, bins=range(50, 101), align='left')
+plt.xlabel('Berat')
+plt.ylabel('Jumlah orang')
+plt.show()
+\end{verbatim}
+
+\begin{figure}[ht]
+\fbox{\includegraphics[width=1.0\linewidth]{graphics/matplotlib-gausian.png}}
+\caption{Contoh Random Data dan Tampilan Grafik}
+\label{fig:random-gausian}
+\end{figure}
+
+Contoh dari tampilan kode di atas dapat dilihat pada
+Gambar~\ref{fig:random-gausian}.
+Gambar ini sangat sederhana dan dapat dimodifikasi tapilannya,
+warna, legend, label, dan seterusnya.
+Untuk melihat pilihan-pilihan apa saja yang tersedia dapat dilakukan
+dengan membaca dokumentasi dan melihat contoh-contoh.
+Misal, jika kita ingin mengganti warna dari bar chart tersebut
+menjadi warna merah, tambahkan "Color='Red'" pada baris yang 
+dimulai dengan {\tt plt.hist}.
+
 
 Berikut ini adalah sebuah contoh penggunaan Matplotlib dan Numpy. Pada contoh ini kita akan membuat kumpulan data yang memiliki karakteristik ``sekitar'' persamaan 
 $Y = Ax + b$.

@@ -539,6 +539,51 @@ print(urut)
 \end{verbatim}
 
 List juga dapat digunakan untuk tipe data lain, bukan hanya angka.
+Sebagai contoh, kita dapat membuat list dari kata (yang menggunakan
+tipe data {\em string}.) Perhatikan bahwa kita dapat menggunakan
+huruf kecil dan besar.
+
+\begin{verbatim}
+people = ["budi", "cecep", "rudi", "ani", "BUDI", "rahardjo", "zoro"]
+print(people)
+
+['budi', 'cecep', 'rudi', 'ani', 'BUDI', 'rahardjo', 'zoro']
+\end{verbatim}
+
+Seperti contoh sebelumnya, list ini juga dapat diurutkan. Berikut ini
+contoh untuk mengurutkan dengan urutan terbalik. Perhatikan adanya
+pilihan ``reverse=True'' ketika kita memanggil fungsi {\em sorted}.
+
+\begin{verbatim}
+people_sorted = sorted(people, reverse=True)
+print(people_sorted)
+
+['zoro', 'rudi', 'rahardjo', 'cecep', 'budi', 'ani', 'BUDI']
+\end{verbatim}
+
+Sekarang kita akan mengubah semua huruf di dalam list tersebut
+menjadi huruf kecil. Untuk ini kita akan menggunakan sebuah fungsi
+yang kita buat sendiri. (Pembahasan tentang fungsi akan ada di
+tempat lain. Saat ini kita pakai saja tanpa perlu teori.)
+
+\begin{verbatim}
+def all_lower(my_list):
+return [x.lower() for x in my_list]
+print(all_lower(people))
+
+['budi', 'cecep', 'rudi', 'ani', 'budi', 'rahardjo', 'zoro']
+\end{verbatim}
+
+Bagaimana jika kita ingin membuat huruf awal dari setiap nama (kata)
+memiliki huruf besar? Ini caranya.
+
+\begin{verbatim}
+people_lower = [x.lower() for x in people]
+people_cap = [x.capitalize() for x in people_lower]
+print(people_cap)
+
+['Budi', 'Cecep', 'Rudi', 'Ani', 'Budi', 'Rahardjo', 'Zoro']
+\end{verbatim}
 
 \section{Input}
 Salah satu cara untuk mendapatkan masukan (input) dari pengguna secara
@@ -609,7 +654,7 @@ kalimat = raw_input("Masukkan kalimat yang cukup panjang.\n")
 # pisahkan menjadi kata
 kata = kalimat.split()
 for k in kata:
-    print k
+    print(k)
 \end{verbatim}
 
 Contoh singkat di atas menunjukkan cara memecahkan kalimat menjadi kata-kata.
