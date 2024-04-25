@@ -182,7 +182,7 @@ print(my_data)
 Salah satu aplikasi yang cukup sering dibutuhkan ketika kita membuat program 
 untuk keperluan penelitian adalah membuat grafik (plot). 
 Salah satu {\em library} yang baik untuk digunakan adalah {\em matplotlib}. 
-Paket ini membutuhkan paket lain, yaitu {\em python-tk}. 
+Pada sistem Linux, paket ini membutuhkan paket lain, yaitu {\em python-tk}. 
 Untuk itu python-tk ini harus dipasang dulu. 
 Di bawah ini adalah contoh pemasangan python-tk di sistem Linux (berbasis Debian) 
 dengan menggunakan perintah apt-get.
@@ -193,7 +193,64 @@ $ sudo pip install matplotlib
 \end{verbatim}
 
 Berikut ini adalah contoh sederhana penggunaan Numpy dan Matlplotlib.
-Pada contoh ini kita akan membuat data random sebanyak 200 buah
+Pada contoh ini kita akan melakukan plot sebuah grafik sederhana
+dari sebuah dataset.
+Langkah pertama dalam menggunakan {\em matplotlib} adalah melakukan
+proses import seperti halnya di Numpy.
+Yang ingin kita gunakan adalah fungsi-fungsi dari pyplot. Ini kita
+persingkat dengan menggunakan {\em plt}.
+
+\begin{verbatim}
+import matplotlib.pyplot as plt
+
+x1 = [1, 2, 3, 4, 5]
+y1 = [2, 4, 6, 8, 10]
+plt.plot(x1, y1, c='blue', label='Dataset 1')
+plt.legend()
+plt.show()
+\end{verbatim}
+
+Contoh di atas akan menghasilkan sebuah grafik plot sebagaimana
+ditampilkan pada~\ref{fig:contoh1}.
+Kita dapat juga mengubah grafik menjadi {\em scatter plot} dengan
+mengubah perintah {\em plt.plot} menjadi {\em plt.scatter}.
+Silahkan dicoba.
+
+\begin{figure}[ht]
+   \fbox{\includegraphics[width=1.0\linewidth]{graphics/matplotlib-contoh1.png}}
+   \caption{Contoh sederhana dari Matplotlib}
+   \label{fig:contoh1}
+\end{figure}
+
+Matplotlib dapat digunakan untuk menampilkan beberapa dataset sekaligus.
+Berikut ini contoh untuk menampilkan dua dataset sekaligus.
+Pada contoh ini kita menggunakan {\em scatter plot}. Tentu saja ini dapat
+juga digantikan dengan {\em line plot} sebagaimana ada dalam contoh sebelumnya.
+Hasilnya ditampilkan pada gambar~\ref{fig:contoh2}.
+
+\begin{verbatim}
+import matplotlib.pyplot as plt
+
+# dataset pertama
+x1 = [1, 2, 3, 4, 5]
+y1 = [2, 4, 6, 8, 10]
+# dataset kedua
+x2 = [1, 2, 3, 4, 5]
+y2 = [3, 1, 7, 5, 6]
+
+plt.scatter(x1, y1, c='blue', label='Dataset 1')
+plt.scatter(x2, y2, c='red', label='Dataset 2')
+plt.legend()
+plt.show()
+\end{verbatim}
+
+\begin{figure}[ht]
+   \fbox{\includegraphics[width=1.0\linewidth]{graphics/matplotlib-contoh2.png}}
+   \caption{Menampilkan Dua Dataset}
+   \label{fig:contoh2}
+\end{figure}
+
+Pada contoh selanjutnya kita akan membuat data random sebanyak 200 buah
 dengan distribusi Normal dengan mean (loc) di 75.
 (Jika pilihan `loc' tidak disebutkan, maka mean yang akan digunakan adalah 0.0.)
 Data tersebut kita plot dengan pilihan {\em histogram}.

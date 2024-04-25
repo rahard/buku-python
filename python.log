@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  25 APR 2024 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  26 APR 2024 05:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1255,147 +1255,180 @@ Overfull \hbox (0.13913pt too wide) in paragraph at lines 156--156
  []
 
 [27] [28]
-<graphics/matplotlib-gausian.png, id=239, 406.1574pt x 312.2064pt>
+<graphics/matplotlib-contoh1.png, id=240, 392.4261pt x 298.4751pt>
+File: graphics/matplotlib-contoh1.png Graphic file (type png)
+<use graphics/matplotlib-contoh1.png>
+Package pdftex.def Info: graphics/matplotlib-contoh1.png  used on input line 22
+0.
+(pdftex.def)             Requested size: 312.01318pt x 237.31389pt.
+
+Overfull \hbox (6.81317pt too wide) in paragraph at lines 220--223
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--223
+
+ []
+
+<graphics/matplotlib-contoh2.png, id=243, 392.4261pt x 298.4751pt>
+File: graphics/matplotlib-contoh2.png Graphic file (type png)
+<use graphics/matplotlib-contoh2.png>
+Package pdftex.def Info: graphics/matplotlib-contoh2.png  used on input line 24
+8.
+(pdftex.def)             Requested size: 312.01318pt x 237.31389pt.
+
+Overfull \hbox (6.81317pt too wide) in paragraph at lines 248--251
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--251
+
+ []
+
+[29 <./graphics/matplotlib-contoh1.png>]
+<graphics/matplotlib-gausian.png, id=249, 406.1574pt x 312.2064pt>
 File: graphics/matplotlib-gausian.png Graphic file (type png)
 <use graphics/matplotlib-gausian.png>
-Package pdftex.def Info: graphics/matplotlib-gausian.png  used on input line 21
-7.
+Package pdftex.def Info: graphics/matplotlib-gausian.png  used on input line 27
+4.
 (pdftex.def)             Requested size: 311.99846pt x 239.828pt.
 
-Overfull \hbox (6.79845pt too wide) in paragraph at lines 217--220
+Overfull \hbox (6.79845pt too wide) in paragraph at lines 274--277
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--220
+Underfull \hbox (badness 10000) in paragraph at lines 274--277
 
  []
 
+[30 <./graphics/matplotlib-contoh2.png>]
 
-LaTeX Warning: Marginpar on page 29 moved.
+LaTeX Warning: Marginpar on page 31 moved.
 
-[29 <./graphics/matplotlib-gausian.png>]
-<graphics/random-data.png, id=249, 462.528pt x 346.896pt>
+[31 <./graphics/matplotlib-gausian.png>]
+<graphics/random-data.png, id=264, 462.528pt x 346.896pt>
 File: graphics/random-data.png Graphic file (type png)
 <use graphics/random-data.png>
-Package pdftex.def Info: graphics/random-data.png  used on input line 265.
+Package pdftex.def Info: graphics/random-data.png  used on input line 322.
 (pdftex.def)             Requested size: 312.01648pt x 234.01236pt.
 
-Overfull \hbox (6.81647pt too wide) in paragraph at lines 265--268
+Overfull \hbox (6.81647pt too wide) in paragraph at lines 322--325
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--268
+Underfull \hbox (badness 10000) in paragraph at lines 322--325
 
  []
 
 
-Overfull \hbox (16.51976pt too wide) in paragraph at lines 277--287
+Overfull \hbox (16.51976pt too wide) in paragraph at lines 334--344
 \T1/pplj/m/n/10 nakan Numpy seperti con-toh di bawah ini. Berkas ``linear-regre
 ssion.csv'' 
  []
 
 
-Overfull \hbox (0.89948pt too wide) in paragraph at lines 277--287
+Overfull \hbox (0.89948pt too wide) in paragraph at lines 334--344
 \T1/pplj/m/n/10 dis-im-pan pada di-rek-tori di-mana kode ini di-jalankan. Vari-
 abel $\OML/zplm/m/it/10 x[]point$ 
  []
 
-[30 <./graphics/random-data.png>]
-Overfull \hbox (199.70349pt too wide) in paragraph at lines 289--289
+
+Overfull \hbox (199.70349pt too wide) in paragraph at lines 346--346
 []\T1/fvm/m/n/10 np.savetxt("linear-regression.csv", np.column_stack([x_point, 
 y_point]), fmt='%.5f', delimiter=', ')[] 
  []
 
-
-Overfull \hbox (35.95837pt too wide) in paragraph at lines 302--302
+[32 <./graphics/random-data.png>]
+Overfull \hbox (35.95837pt too wide) in paragraph at lines 359--359
 []\T1/fvm/m/n/10 # do not forget to install scipy first: python3 -m pip install
  scipy[] 
  []
 
 
-Overfull \hbox (5.25616pt too wide) in paragraph at lines 305--305
+Overfull \hbox (5.25616pt too wide) in paragraph at lines 362--362
 []\T1/fvm/m/n/10 my_csv = np.genfromtxt('linear-regression.csv', delimiter=',')
 [] 
  []
 
 
-Overfull \hbox (25.7243pt too wide) in paragraph at lines 307--307
+Overfull \hbox (25.7243pt too wide) in paragraph at lines 364--364
 []\T1/fvm/m/n/10 gradient,intercept,r_value,p_value,std_err=stats.linregress(xp
 ,yp)[] 
  []
 
-[31]
-Overfull \hbox (163.88425pt too wide) in paragraph at lines 349--349
+[33]
+Overfull \hbox (163.88425pt too wide) in paragraph at lines 406--406
 []   \T1/fvm/m/n/10 np.savetxt("cluster.csv", np.column_stack([x_point, y_point
 ]), fmt='%.5f', delimiter=', ')[] 
  []
 
-<graphics/cluster-create.jpg, id=261, 1421.31pt x 1228.59pt>
+<graphics/cluster-create.jpg, id=275, 1421.31pt x 1228.59pt>
 File: graphics/cluster-create.jpg Graphic file (type jpg)
 <use graphics/cluster-create.jpg>
-Package pdftex.def Info: graphics/cluster-create.jpg  used on input line 362.
+Package pdftex.def Info: graphics/cluster-create.jpg  used on input line 419.
 (pdftex.def)             Requested size: 311.99518pt x 269.69073pt.
 
-Overfull \hbox (6.79517pt too wide) in paragraph at lines 362--365
+Overfull \hbox (6.79517pt too wide) in paragraph at lines 419--422
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--365
+Underfull \hbox (badness 10000) in paragraph at lines 419--422
 
  []
 
-[32]
+[34 <./graphics/cluster-create.jpg>]
 
-LaTeX Warning: Marginpar on page 33 moved.
+LaTeX Warning: Marginpar on page 35 moved.
 
-[33 <./graphics/cluster-create.jpg>]
-<graphics/3cluster.jpg, id=271, 1421.31pt x 1228.59pt>
+[35]
+<graphics/3cluster.jpg, id=285, 1421.31pt x 1228.59pt>
 File: graphics/3cluster.jpg Graphic file (type jpg)
 <use graphics/3cluster.jpg>
-Package pdftex.def Info: graphics/3cluster.jpg  used on input line 458.
+Package pdftex.def Info: graphics/3cluster.jpg  used on input line 515.
 (pdftex.def)             Requested size: 311.99518pt x 269.69073pt.
 
-Overfull \hbox (6.79517pt too wide) in paragraph at lines 458--461
+Overfull \hbox (6.79517pt too wide) in paragraph at lines 515--518
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--461
+Underfull \hbox (badness 10000) in paragraph at lines 515--518
 
  []
 
 
-Overfull \hbox (71.77762pt too wide) in paragraph at lines 474--474
+Overfull \hbox (71.77762pt too wide) in paragraph at lines 531--531
 []\T1/fvm/m/n/10 plt.scatter(df['x'],df['y'], c=kmeans.labels_.astype(float),s=
 50,alpha=0.5)[] 
  []
 
-[34]
-<graphics/3cluster-kmeans.jpg, id=277, 1421.31pt x 1228.59pt>
+<graphics/3cluster-kmeans.jpg, id=287, 1421.31pt x 1228.59pt>
 File: graphics/3cluster-kmeans.jpg Graphic file (type jpg)
 <use graphics/3cluster-kmeans.jpg>
-Package pdftex.def Info: graphics/3cluster-kmeans.jpg  used on input line 492.
+Package pdftex.def Info: graphics/3cluster-kmeans.jpg  used on input line 549.
 (pdftex.def)             Requested size: 311.99518pt x 269.69073pt.
 
-Overfull \hbox (6.79517pt too wide) in paragraph at lines 492--495
+Overfull \hbox (6.79517pt too wide) in paragraph at lines 549--552
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--495
+Underfull \hbox (badness 10000) in paragraph at lines 549--552
 
  []
 
-(./opencv.tex [35 <./graphics/3cluster.jpg>]
+[36] (./opencv.tex [37 <./graphics/3cluster.jpg>]
 Overfull \hbox (6.19981pt too wide) in paragraph at lines 28--33
 []\T1/pplj/m/n/10 Program akan menampilkan gam-bar se-belum dan sesu-dah dipros
 es, 
  []
 
-<graphics/br-pixel.png, id=282, 722.7pt x 569.12625pt>
+<graphics/br-pixel.png, id=297, 722.7pt x 569.12625pt>
 File: graphics/br-pixel.png Graphic file (type png)
 <use graphics/br-pixel.png>
 Package pdftex.def Info: graphics/br-pixel.png  used on input line 35.
@@ -1405,7 +1438,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<graphics/br-pixel-grey.png, id=283, 1445.4pt x 1138.2525pt>
+<graphics/br-pixel-grey.png, id=298, 1445.4pt x 1138.2525pt>
 File: graphics/br-pixel-grey.png Graphic file (type png)
 <use graphics/br-pixel-grey.png>
 Package pdftex.def Info: graphics/br-pixel-grey.png  used on input line 40.
@@ -1420,45 +1453,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
-[36 <./graphics/3cluster-kmeans.jpg>] [37 <./graphics/br-pixel.png> <./graphics
-/br-pixel-grey.png (PNG copy)>])
-Overfull \hbox (25.7243pt too wide) in paragraph at lines 526--526
+) [38 <./graphics/3cluster-kmeans.jpg>] [39 <./graphics/br-pixel.png> <./graphi
+cs/br-pixel-grey.png (PNG copy)>]
+Overfull \hbox (25.7243pt too wide) in paragraph at lines 583--583
 []\T1/fvm/m/n/10 375a6c46228994656932f4aa17d9ae50f21da75a31ff17f8517c255c06cba8
 09 -[] 
  []
 
 
-Overfull \hbox (71.77762pt too wide) in paragraph at lines 531--531
+Overfull \hbox (71.77762pt too wide) in paragraph at lines 588--588
 []\T1/fvm/m/n/10 375a6c46228994656932f4aa17d9ae50f21da75a31ff17f8517c255c06cba8
 09 pesan1.txt[] 
  []
 
 
-Overfull \hbox (71.77762pt too wide) in paragraph at lines 536--536
+Overfull \hbox (71.77762pt too wide) in paragraph at lines 593--593
 []\T1/fvm/m/n/10 5901bccc6a0556fac2b4a164ef831a7ed4ceddeb60c6ddde1162f5a40b9d29
 17 pesan2.txt[] 
  []
 
 
-Overfull \hbox (52.74152pt too wide) in paragraph at lines 552--552
+Overfull \hbox (52.74152pt too wide) in paragraph at lines 609--609
 $[]$\T1/pplj/m/n/8 https://rahard.wordpress.com/2018/03/10/berburu- 
  []
 
-) [38]
+)
 
-LaTeX Warning: Marginpar on page 39 moved.
+LaTeX Warning: Marginpar on page 40 moved.
 
-[39]
+[40]
 \openout2 = `tricks.aux'.
 
- (./tricks.tex [40
+ (./tricks.tex
+Chapter 3.
+[41
 
 
 
 
 ]
-Chapter 3.
-[41]
 Overfull \hbox (19.11987pt too wide) in paragraph at lines 57--60
 []\T1/pplj/m/n/10 Berikut ini adalah con-toh kode yang lazim dite-mui, yaitu me
 nanamkan 
@@ -1470,15 +1503,7 @@ Overfull \hbox (0.13913pt too wide) in paragraph at lines 135--135
 ] 
  []
 
-
-(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/stringenc
-/se-pdfdoc.def
-File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-)
-(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/stringenc
-/se-utf8.def
-File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [43]
+[43]
 
 LaTeX Warning: Marginpar on page 44 moved.
 
@@ -1490,28 +1515,28 @@ owstarted}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 \bibitem{tensorflowstarted}
-                               ) [45
+                               )
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/stringenc
+/se-pdfdoc.def
+File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+)
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/stringenc
+/se-utf8.def
+File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
+) [45
 
 
 
-]
-
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (43 not 45).
-               Rerun to correct this.
-
-(./python.aux (./pengantar.aux) (./pendahuluan.aux) (./advanced.aux)
-(./tricks.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+] (./python.aux (./pengantar.aux) (./pendahuluan.aux)
+(./advanced.aux) (./tricks.aux))
 Package rerunfilecheck Info: File `python.out' has not changed.
 (rerunfilecheck)             Checksum: 7C22D36705FE330A269EF37B0DBE12A9;3013.
  ) 
 Here is how much of TeX's memory you used:
- 17497 strings out of 476025
- 294491 string characters out of 5779036
+ 17515 strings out of 476025
+ 295006 string characters out of 5779036
  1867388 words of memory out of 5000000
- 37423 multiletter control sequences out of 15000+600000
+ 37439 multiletter control sequences out of 15000+600000
  589721 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  97i,12n,93p,843b,650s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1528,10 +1553,10 @@ f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/homebrew/Cellar/texlive/202303
 /texlive/20230313_2/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></opt/
 homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/urw/palatino/up
 lri8a.pfb>
-Output written on python.pdf (45 pages, 2749484 bytes).
+Output written on python.pdf (45 pages, 2771300 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 309 compressed objects within 4 object streams
+ 402 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
  74 named destinations out of 1000 (max. 500000)
- 2797 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2807 words of extra memory for PDF output out of 10000 (max. 10000000)
 
