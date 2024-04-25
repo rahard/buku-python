@@ -89,7 +89,9 @@ CMD.exe.) Catatan, di sistem Linux, tanda ``dollar'' (atau persen)
 merupakan {\em prompt} dari {\em shell} Anda. Jangan diketikkan.
 Di beberapa sistem yang memiliki instalasi Python~2 dan Pyhton~3 secara
 bersamaan, ada kemungkinan Anda harus mengetikkan ``python3''
-(perhatikan ada angka ``3'')
+(perhatikan ada angka ``3'').
+Di kemudian hari, {\em default} dari perintah `python' akan mengacu
+kepada versi 3.
 
 \begin{verbatim}
 $ python
@@ -587,14 +589,14 @@ print(people_cap)
 
 \section{Input}
 Salah satu cara untuk mendapatkan masukan (input) dari pengguna secara
-interaktif adalah dengan menggunakan fungsi "input" (untuk Python 3.*)
-atau "raw\_input" (untuk Python 2.7).
+interaktif adalah dengan menggunakan fungsi "input".
+Apa yang Anda ketikkan akan dimasukkan ke dalam variabel sebagai string
+(teks). Jika Anda ingin mengubahnya menjadi angka, maka Anda harus
+melakukan hal ini secara eksplisit.
 
 \begin{verbatim}
-# ini untuk Python 2.7
-# gunakan raw_input
-nama = raw_input("Masukkan nama Anda: ")
-print "Selamat pagi,", nama
+nama = input("Masukkan nama Anda: ")
+print("Selamat pagi,", nama)
 \end{verbatim}
 
 Perhatikan bahwa kita menggunakan variabel "nama" untuk menyimpan masukan
@@ -639,6 +641,18 @@ indeks atau kuncinya.
 Pada contoh tersebut, spasi ({\em space}) masih dianggap sebagai huruf.
 Coba ubah sehingga spasi tidak dimasukkan sebagai indeks.
 
+Jika kita ingin data yang dimasukkan adalah berbentuk angka, integer misalnya,
+maka perlu dilakukan konversi secara eksplisit.
+Contoh berikut ini dapat menunjukkan hal tersebut.
+
+\begin{verbatim}
+a = input("a = ")
+b = input("b = ")
+c = a+b
+
+print("c =", c)
+print(int(a)+int(b))
+\end{verbatim}
 
 \section{Pemrosesan Teks}
 Salah satu manfaat utama dari bahasa pemrograman seperti Python adalah

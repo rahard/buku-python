@@ -69,6 +69,7 @@ $ sudo pip install numpy
 
 Contoh-contoh penggunaan paket Numpy akan digabungkan dengan bagian lain.
 Berikut ini adalah contoh sederhana penggunaan dari Numpy.
+Contoh pertama adalah dalam hal matriks.
 
 \begin{verbatim}
 >>> import numpy as np
@@ -143,6 +144,7 @@ dan seringkali terkait dengan operasi matematika, maka Numpy
 sangat bermanfaat.
 
 Mari kita gunakan Numpy lagi untuk beberapa contoh.
+Kali ini kita akan menggunakan Numpy untuk statistik.
 Berikut ini contoh untuk menghasilkan 20 bilangan bulat secara acak
 dengan rentang dari 50 sampai dengan 99 (misal ini adalah berat badan).
 
@@ -155,9 +157,24 @@ print(berat)
 \end{verbatim}
 
 Data di atas dapat disimpan dalam berkas untuk digunakan dalam
-proses lain.
+proses lain. Numpy memiliki fungsi untuk menyipan data tersebut.
+Sebagai contoh, jika kita ingin menyimpan data tersebut dalam
+berkas `berat.csv' maka dapat dilakukan seperti berikut.
+Perhatikan bahwa perinta `fmt' digunakan untuk memformat data
+sebagai bilangan bulat (integer).
 \begin{verbatim}
 np.savetxt("berat.csv", berat, fmt='%i')
+\end{verbatim}
+
+Data tersebut di kemudian hari dapat dibaca dengan menggunakan perintah
+seperti contoh berikut. (Sebagai catatan kita sudah tahu bahwa data di
+dalam berkas `berat.csv' tersebut tercatat masing-masing dalam satu baris.
+Jika satu baris memiliki lebih dari satu data yang dipisahkan oleh tanda koma,
+maka kita dapat menggunakan perintah tambahan delimiter=',')
+\begin{verbatim}
+from numpy import genfromtxt
+my_data = genfromtxt('berat.csv')
+print(my_data)
 \end{verbatim}
 
 
@@ -176,9 +193,12 @@ $ sudo pip install matplotlib
 \end{verbatim}
 
 Berikut ini adalah contoh sederhana penggunaan Numpy dan Matlplotlib.
-Pada contoh ini kita akan membuat data random sebanyak 200 buat
-dengan distribusi Normal. Data tersebut memiliki rentang 50 sampai dengan 100.
-(Nantinya data ini akan kita plot dengan menggunakan histogram atau bar chart.)
+Pada contoh ini kita akan membuat data random sebanyak 200 buah
+dengan distribusi Normal dengan mean (loc) di 75.
+(Jika pilihan `loc' tidak disebutkan, maka mean yang akan digunakan adalah 0.0.)
+Data tersebut kita plot dengan pilihan {\em histogram}.
+Ada banyak pilihan, misalkan kita dapat plot dengan {\em bins}
+dalam rentang antara 50 dan 101.
 
 \begin{verbatim}
 import numpy as np
@@ -186,6 +206,7 @@ import matplotlib.pyplot as plt
 
 berat = np.random.normal(loc=75, scale=10, size=200)
 
+# plt.hist(berat)
 plt.hist(berat, bins=range(50, 101), align='left')
 plt.xlabel('Berat')
 plt.ylabel('Jumlah orang')
