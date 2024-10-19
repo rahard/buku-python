@@ -74,13 +74,12 @@ Buku ini akan diperbaharui dengan cara menggunakan Google Colabs ini.
 
 Layanan Google Colab dapat diakses dengan menggunakan {\em browser} dan
 diarahkan ke alamat colab.research.google.com (atau gunakan search engine
-untuk mencapai domain tersebu).
+untuk mencapai halaman tersebut dengan kata kunci "google colab").
 Setelah ditampilkan halaman depan, kita dapat membuka program baru dengan
 membuka {\em New Notebook} atau membukan kodingan lama kita yang sudah
 disimpan di akun Google Drive kita.
 Google colab menyediakan sebuah komputer virtual yang dapat kita gunakan
-untuk melakukan pemrograman dalam bahasa Python (yang dalam hal ini dapat
-kita pilih mau menggunakan versi 2 atau 3).
+untuk melakukan pemrograman dalam bahasa Python .
 
 \section{Memulai}
 Untuk memastikan Python berjalan, ketikkan ``python'' di terminal Linux Anda.
@@ -92,20 +91,6 @@ bersamaan, ada kemungkinan Anda harus mengetikkan ``python3''
 (perhatikan ada angka ``3'').
 Di kemudian hari, {\em default} dari perintah `python' akan mengacu
 kepada versi 3.
-
-\begin{verbatim}
-$ python
-Python 2.7.12 (default, Nov 20 2017, 18:23:56) 
-[GCC 5.4.0 20160609] on linux2
-Type "help", "copyright", "credits" or "license" for more information.
->>> 
-\end{verbatim}
-
-Dari tampilan di atas dapat kita ketahui bahwa Python yang saya gunakan adalah
-versi 2.7.12\footnote{Pada awal penulisan buku ini, versi bahasa Python Yang
-stabil digunakan adalah versi 2. Saat ini versi~3 merupakan versi yang dianggap
-sebagai versi stabil. Untuk itu buku ini sedikit demi sedikit akan diperbaharui
-dengan menggunakan Python versi 3.}. 
 
 \begin{verbatim}
 % python3
@@ -121,7 +106,6 @@ Ketikkan ``print ...'' (dan seterusnya seperti di bawah ini).
 
 \begin{verbatim}
 print("Hello, world!")
-Hello, world!
 \end{verbatim}
 
 Python akan menampilkan apapun yang ada di antara tanda petik tersebut. Hore!
@@ -151,6 +135,9 @@ IndentationError: expected an indented block
 Pada contoh di atas, kesalahan terjadi karena kita tidak memberikan spasi di
 depan perintah ``print(i)''. Seharusnya kita melakukan hal seperti ini.
 (Perhatikan spasi sebelum kata ``print''.)
+Sayangnya dengan cara di atas kita akan sulit mengedit ulang.
+Lebih disarankan untuk menggunakan text editor atau IDE untuk membuat
+program Python secara lebih serius.
 
 \begin{verbatim}
 $ python3
@@ -186,25 +173,25 @@ memberikan perintah python dan nama berkas tersebut.
 Kata ``Hello world'' akan ditampilkan.
 
 \begin{verbatim}
-$ python hello.py
+$ python3 hello.py
 Hello, world!
 \end{verbatim}
 
-Cara lain yang dapat dilakukan adalah dengan menggunakan program IPython,
-yaitu interactive Python. Biasanya program IPython ini belum terpasang di
-sistem operasi bawaan komputer Anda. Tinggal unduh dari ipython.org.
-(Perhatikan IPython ini sudah mengenal {\em syntax} dari Python sehingga 
-ketika kita mengetikkan {\em for loop} maka dia akan memberikan spasi 4 buah
-sebagai {\em indentation}.)
+Kode kedua yang akan kita buat adalah membuat Python mencetak angka dari 
+nol (0) ke 9. Kodenya adalah sebagai berikut. 
+
 
 \begin{verbatim}
-$ ipython3
-In [1]: print("Hello World")
-Hello World
+for n in range(10):
+   print(n)
+\end{verbatim}
 
-In [2]: for i in range(10):
-   ...:     print(i)
-   ...:     
+Setelah kode ini disimpan
+dalam sebuah berkas (katakan kita beri nama ``loop.py'') maka kita jalankan
+dengan perintah ``python3 loop.py''
+
+\begin{verbatim}
+$ python3 loop.py
 0
 1
 2
@@ -215,12 +202,7 @@ In [2]: for i in range(10):
 7
 8
 9
-
-In [3]: 
 \end{verbatim}
-
-Masih ada satu cara lain menjalankan program Python, yaitu dengan menggunakan
-Jupyter. Yang ini akan kita bahas secara lebih khusus.
 
 Pada contoh-contoh di atas hasil print dicetak ke bawah. Bagaimana jika kita
 ingin hasil cetaknya tidak turun ke bawah atau tanpa {\em newline}?
@@ -243,13 +225,19 @@ Cara lain yang lebih sering dilakukan orang adalah menggunakan sebuah
 Integrated Development Editor (IDE) untuk melakukan pemrogramannnya.
 Menjalankan kodenya dapat dikomandokan dari IDE atau dari shell juga.
 
-Ada beberapa IDE untuk Python, seperti misalnya IDLE.
-Yang sekarang sedang naik daun adalah dengan menggunakan {\em Jupyter Notebook}.
+Ada beberapa IDE untuk Python, seperti misalnya IDLE atau dengan
+{\em Jupyter Notebook}.
 Yang menarik dengan pendekatan ini adalah kita melakukan dokumentasi dan
 pemrograman sekaligus di lingkungan tersebut.
 Google Colab pun sesungguhnya menggunakan konsep Jupyter Notebook ini tetapi
 membawanya ke lingkungan {\em cloud}.
 Nanti ini akan kita bahas dengan lebih lanjut.
+
+Bagi Anda yang sudah terbiasa menggunakan Visual Code Studio (VScode),
+Anda dapat juga menggunakannya sebagai IDE untuk mengetikkan kode Python Anda.
+Bahkan cara ini sekarang yang sedang populer.
+Di dalam VSCode ada juga syntax highlighting yang menunjukkan kesalahan 
+jika kode kita tidak sesuai dengan keyword Python.
 
 \section{Bahasa Python} 
 Tentang bahasa Python itu sendiri akan diperdalam pada versi berikutnya.
@@ -257,9 +245,14 @@ Sementara itu fitur tentang bahasa Python akan dibahas sambil berjalan.
 Pendekatan ini saya ambil untuk membuat buku menjadi lebih menarik dan lebih
 singkat. Belajar seperlunya. Mari kita mulai.
 
+Kita mulai dengan konsep variabel. Sebagai mana bahasa pemrograman lainnya,
+Python juga memiliki konsep variabel untuk menampung data.
+
 Variabel di dalam Python langsung dapat digunakan tanpa melakukan deklarasi
 sebelumnya. Pada bahasa pemrograman seperti C, variabel harus dideklarasikan
-tipenya; apakah dia {\em integer} atau {\em string}.
+tipenya; apakah dia {\em integer} atau {\em string} atau tipe data lainnya.
+Pada Python, tidak perlu. Dia akan menebak tipe datanya. 
+(Namun jika kita merasa perlu mendeklarasikannya, ini dapat dilakukan juga.)
 Contohnya di bawah ini.
 \begin{verbatim}
 a = 7
@@ -267,7 +260,7 @@ b = 5
 print(a,b)
 \end{verbatim}
 Pada contoh di atas, variabel $a$ dan $b$ dibuat dan langsung diisi dengan
-angka (7 dan 5) dalam kasus ini.
+angka (7 dan 5), bilangan bulat (integer) dalam kasus ini.
 Kemudian kedua variabel tersebut disampaikan sekaligus.
 Perhatikan bahwa dengan menggunakan tanda koma (,) nilai dari kedua variabel
 tersebut ditampilkan dengan spasi.
@@ -276,7 +269,8 @@ tersebut ditampilkan dengan spasi.
 7 5
 \end{verbatim}
 
-Berikut ini kita buat penampilan yang lebih ``menarik'' (untuk Python3).
+Berikut ini kita buat penampilan yang lebih ``menarik'' (karena ada teks yang
+menjelaskan apa yang dia tampilkan di layar).
 \begin{verbatim}
 a = 7
 b = 5
@@ -653,6 +647,14 @@ c = a+b
 print("c =", c)
 print(int(a)+int(b))
 \end{verbatim}
+
+Kode print yang pertama akan melakukan {\em concatenate} teks (string) yang
+Anda masukkan ke $a$ dan $b$. Ini dikarenakan input akan memberikan tipe 
+data {\em string}.
+Untuk memastikan bahwa yang dijumlahkan adalah angka (dalam hal ini adalah
+bilang bulat atau integer) maka dilakukan konversi tipe data ke integer 
+dengan perintah ``int(a)'', misalnya.
+Perjumlahan antara $int(a)$ dan $int(b)$ adalah perjumlahan bilangan bulat.
 
 \section{Pemrosesan Teks}
 Salah satu manfaat utama dari bahasa pemrograman seperti Python adalah
