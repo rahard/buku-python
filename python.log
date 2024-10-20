@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.10.19)  19 OCT 2024 13:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.10.19)  20 OCT 2024 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,7 +949,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 ]
 Chapter 1.
 [7.7]
-<graphics/google-colab.jpg, id=145, 590.205pt x 255.20343pt>
+<graphics/google-colab.jpg, id=149, 590.205pt x 255.20343pt>
 File: graphics/google-colab.jpg Graphic file (type jpg)
 <use graphics/google-colab.jpg>
 Package pdftex.def Info: graphics/google-colab.jpg  used on input line 71.
@@ -1065,40 +1065,41 @@ Overfull \hbox (2.9231pt too wide) in paragraph at lines 581--581
 ] 
  []
 
-[18.18] [19.19]
-Overfull \hbox (8.17181pt too wide) in paragraph at lines 669--669
+[18.18] [19.19] [20.20]
+Overfull \hbox (8.17181pt too wide) in paragraph at lines 698--698
 []\T1/cmtt/m/n/10 kalimat = raw_input("Masukkan kalimat yang cukup panjang.\n")
 [] 
  []
 
-[20.20]
-
-LaTeX Warning: Marginpar on page 21 moved.
-
-
-Underfull \hbox (badness 2846) in paragraph at lines 744--744
-$[]$\T1/pplj/m/n/8 Kode ini ada di 
- []
-
-
-LaTeX Warning: Marginpar on page 21 moved.
-
 [21.21]
-Overfull \hbox (8.17181pt too wide) in paragraph at lines 749--749
-[]\T1/cmtt/m/n/10 # kata orang jangan di-slurp tapi dibaca perbaris seperti ini
-[] 
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 773--773
+$[]$\T1/pplj/m/n/8 Kode ini ada di 
  []
 
 
 LaTeX Warning: Marginpar on page 22 moved.
 
 
-Overfull \hbox (3.39989pt too wide) in paragraph at lines 794--800
+Overfull \hbox (8.17181pt too wide) in paragraph at lines 778--778
+[]\T1/cmtt/m/n/10 # kata orang jangan di-slurp tapi dibaca perbaris seperti ini
+[] 
+ []
+
+[22.22]
+
+LaTeX Warning: Marginpar on page 23 moved.
+
+
+Overfull \hbox (3.39989pt too wide) in paragraph at lines 823--829
 \T1/pplj/m/n/10 ``.bashrc'' pada \T1/pplj/m/it/10 home di-rec-tory \T1/pplj/m/n
 /10 Anda (atau pada berkas ``.bash_aliases''). 
  []
 
-[22.22]) [23.23]
+) [23.23]
 \openout2 = `advanced.aux'.
 
  (./advanced.tex [24.24
@@ -1119,7 +1120,7 @@ Overfull \hbox (8.17181pt too wide) in paragraph at lines 156--156
  []
 
 [27.27] [28.28]
-<graphics/matplotlib-contoh1.png, id=240, 392.4261pt x 298.4751pt>
+<graphics/matplotlib-contoh1.png, id=244, 392.4261pt x 298.4751pt>
 File: graphics/matplotlib-contoh1.png Graphic file (type png)
 <use graphics/matplotlib-contoh1.png>
 Package pdftex.def Info: graphics/matplotlib-contoh1.png  used on input line 22
@@ -1135,7 +1136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--223
 
  []
 
-<graphics/matplotlib-contoh2.png, id=243, 392.4261pt x 298.4751pt>
+<graphics/matplotlib-contoh2.png, id=247, 392.4261pt x 298.4751pt>
 File: graphics/matplotlib-contoh2.png Graphic file (type png)
 <use graphics/matplotlib-contoh2.png>
 Package pdftex.def Info: graphics/matplotlib-contoh2.png  used on input line 24
@@ -1152,7 +1153,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--251
  []
 
 [29.29 <./graphics/matplotlib-contoh1.png>]
-<graphics/matplotlib-gausian.png, id=249, 406.1574pt x 312.2064pt>
+<graphics/matplotlib-gausian.png, id=253, 406.1574pt x 312.2064pt>
 File: graphics/matplotlib-gausian.png Graphic file (type png)
 <use graphics/matplotlib-gausian.png>
 Package pdftex.def Info: graphics/matplotlib-gausian.png  used on input line 27
@@ -1173,7 +1174,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--277
 LaTeX Warning: Marginpar on page 31 moved.
 
 [31.31 <./graphics/matplotlib-gausian.png>]
-<graphics/random-data.png, id=264, 462.528pt x 346.896pt>
+<graphics/random-data.png, id=268, 462.528pt x 346.896pt>
 File: graphics/random-data.png Graphic file (type png)
 <use graphics/random-data.png>
 Package pdftex.def Info: graphics/random-data.png  used on input line 322.
@@ -1230,7 +1231,7 @@ Overfull \hbox (176.1308pt too wide) in paragraph at lines 406--406
 t]), fmt='%.5f', delimiter=', ')[] 
  []
 
-<graphics/cluster-create.jpg, id=275, 1421.31pt x 1228.59pt>
+<graphics/cluster-create.jpg, id=279, 1421.31pt x 1228.59pt>
 File: graphics/cluster-create.jpg Graphic file (type jpg)
 <use graphics/cluster-create.jpg>
 Package pdftex.def Info: graphics/cluster-create.jpg  used on input line 419.
@@ -1250,7 +1251,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 419--422
 LaTeX Warning: Marginpar on page 35 moved.
 
 [35.35]
-<graphics/3cluster.jpg, id=285, 1421.31pt x 1228.59pt>
+<graphics/3cluster.jpg, id=289, 1421.31pt x 1228.59pt>
 File: graphics/3cluster.jpg Graphic file (type jpg)
 <use graphics/3cluster.jpg>
 Package pdftex.def Info: graphics/3cluster.jpg  used on input line 515.
@@ -1271,7 +1272,7 @@ Overfull \hbox (81.65387pt too wide) in paragraph at lines 531--531
 =50,alpha=0.5)[] 
  []
 
-<graphics/3cluster-kmeans.jpg, id=287, 1421.31pt x 1228.59pt>
+<graphics/3cluster-kmeans.jpg, id=291, 1421.31pt x 1228.59pt>
 File: graphics/3cluster-kmeans.jpg Graphic file (type jpg)
 <use graphics/3cluster-kmeans.jpg>
 Package pdftex.def Info: graphics/3cluster-kmeans.jpg  used on input line 549.
@@ -1292,7 +1293,7 @@ Overfull \hbox (6.19981pt too wide) in paragraph at lines 28--33
 es, 
  []
 
-<graphics/br-pixel.png, id=297, 722.7pt x 569.12625pt>
+<graphics/br-pixel.png, id=301, 722.7pt x 569.12625pt>
 File: graphics/br-pixel.png Graphic file (type png)
 <use graphics/br-pixel.png>
 Package pdftex.def Info: graphics/br-pixel.png  used on input line 35.
@@ -1302,7 +1303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<graphics/br-pixel-grey.png, id=298, 1445.4pt x 1138.2525pt>
+<graphics/br-pixel-grey.png, id=302, 1445.4pt x 1138.2525pt>
 File: graphics/br-pixel-grey.png Graphic file (type png)
 <use graphics/br-pixel-grey.png>
 Package pdftex.def Info: graphics/br-pixel-grey.png  used on input line 40.
@@ -1398,13 +1399,13 @@ File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
 (./python.aux (./pengantar.aux) (./pendahuluan.aux) (./advanced.aux)
 (./tricks.aux))
 Package rerunfilecheck Info: File `python.out' has not changed.
-(rerunfilecheck)             Checksum: 7C22D36705FE330A269EF37B0DBE12A9;3013.
+(rerunfilecheck)             Checksum: 8394D4A44CF09F6FA0569F9DACBC322D;3190.
  ) 
 Here is how much of TeX's memory you used:
- 17421 strings out of 480247
- 284736 string characters out of 5896150
+ 17423 strings out of 480247
+ 284762 string characters out of 5896150
  643585 words of memory out of 5000000
- 34838 multiletter control sequences out of 15000+600000
+ 34839 multiletter control sequences out of 15000+600000
  546073 words of font info for 124 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  94i,12n,94p,843b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1418,10 +1419,10 @@ fpl/fplrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on python.pdf (45 pages, 2783871 bytes).
+Output written on python.pdf (45 pages, 2784832 bytes).
 PDF statistics:
- 489 PDF objects out of 1000 (max. 8388607)
- 312 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
- 2807 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 494 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 2815 words of extra memory for PDF output out of 10000 (max. 10000000)
 

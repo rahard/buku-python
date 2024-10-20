@@ -7,9 +7,10 @@
 \contentsline {section}{\numberline {1.6}Kompleksitas}{14}{section.1.6}%
 \contentsline {section}{\numberline {1.7}List}{16}{section.1.7}%
 \contentsline {section}{\numberline {1.8}Input}{18}{section.1.8}%
-\contentsline {section}{\numberline {1.9}Pemrosesan Teks}{20}{section.1.9}%
-\contentsline {section}{\numberline {1.10}Membaca Berkas: topic generator}{21}{section.1.10}%
-\contentsline {section}{\numberline {1.11}Python3}{22}{section.1.11}%
+\contentsline {section}{\numberline {1.9}Pencabangan - Branching}{20}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Pemrosesan Teks}{20}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Membaca Berkas: topic generator}{21}{section.1.11}%
+\contentsline {section}{\numberline {1.12}Python3}{23}{section.1.12}%
 \contentsline {chapter}{\numberline {2}Koding Tingkat Medium}{25}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Argumen CLI}{25}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Numpy}{26}{section.2.2}%

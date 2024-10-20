@@ -656,6 +656,36 @@ bilang bulat atau integer) maka dilakukan konversi tipe data ke integer
 dengan perintah ``int(a)'', misalnya.
 Perjumlahan antara $int(a)$ dan $int(b)$ adalah perjumlahan bilangan bulat.
 
+
+\section{Pencabangan - Branching}
+Dalam pemrograman, salah satu yang sering dilakukan adalah memilih cabang
+(branch) berdasarkan sebuah kondisi. Misal jika sebuah variabel berisi
+nilai negatif maka program memilih jalur satu, selain itu program akan
+berjalan dengan memilih jalur kedua.
+Mari kita coba hal ini dengan sebuah contoh.
+
+\begin{verbatim}
+x = input("Masukkan bilangan antara -10 dan 10: ");
+z = int(x)
+if z < 0:
+    print("Anda memasukkan bilangan negatif, ", z)
+else:
+    print("Anda memasukkan bilangan positif, ", z)
+\end{verbatim}
+
+Di dalam bahasa Python, pencabangan dapat dilakukan dengan klausul
+``if (kondisi):''. Jika kondisi tersebut benar (True) maka blok di
+bawahnya akan dieksekusi.
+Kondisi ini dapat ditambahkan juga dengan klausul ``else:'',
+yang mana jika kondisi tidak terpenuhi (False) maka blok di bawahnya
+akan dieksekusi.
+
+Pencabangan dapat dilakukan dengan lebih kompleks lagi jika pilihannya
+lebih dari satu. Bagian ``else'' dapat digantikan dengan ``elif''
+yang merupakan kependekan dari ``else if''.
+
+
+
 \section{Pemrosesan Teks}
 Salah satu manfaat utama dari bahasa pemrograman seperti Python adalah
 kemampuannya dalam memproses teks ({\em text processing}). Bahasa
